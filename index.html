@@ -231,7 +231,7 @@ const hideGate=()=>{const g=$("#gate");if(g)g.remove()};
 function adminView(t){if(!OWN)return;if(t)atab=t;arm=null;
  open(`<div class="hd"><h2>لوحة الإدارة</h2><button class="x" data-close aria-label="إغلاق">${I("x")}</button></div><div class="tabs">${[["p","المنتجات"],["k","المخزون"],["o","الطلبات"],["c","الزبائن"],["s","الإعدادات"]].map(([k,l])=>`<button class="tb${atab==k?" on":""}" data-at="${k}">${l}</button>`).join("")}</div><div id="ad"></div><p class="err" id="er"></p>`);
  ({p:prodTab,k:stockTab,o:ordTab,c:custTab,s:setTab2})[atab]()}
-const vis=p=>!(/^x\d+$/.test(p.id)&&(!p.img||String(p.img).startsWith("data:image/svg")));
+const vis=p=>!((/^x\d+$/.test(p.id)&&(!p.img||String(p.img).startsWith("data:image/svg")))||/^p\d+\.jpg/.test(p.img||""));
 const noPh=()=>PR.filter(p=>p.c!="m"&&(!p.img||String(p.img).startsWith("data:image/svg")));let PM=0;
 function photoMode(){const L=noPh();if(!L.length){toast("كل المنتجات عندها صور حقيقية ✓");adminView("p");return}if(PM>=L.length)PM=0;const p=L[PM];
  open(`<div class="hd"><h2>وضع التصوير</h2><button class="x" data-adm aria-label="رجوع">${I("x")}</button></div><p class="hint ctr">${PM+1} من ${L.length} منتج بدون صورة حقيقية</p><img class="big" alt="" src="${E(p.img||"")}"><h2 class="ctr">${E(p.n)}</h2><p class="hint ctr">${E(BAR[p.br]||p.br||"")} · ${fmt(p.p)}</p>
