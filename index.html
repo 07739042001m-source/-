@@ -160,12 +160,24 @@ function setTab(t){tab=t;document.querySelectorAll(".nav button").forEach(b=>b.c
 function render(){if(tab=="home")home();else if(tab=="cart")cartView();else if(tab=="orders")ordersView();else meView();badge()}
 let LPC=-1;
 function confetti(){if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;const c=document.createElement("canvas"),x=c.getContext("2d"),W=innerWidth,H=innerHeight,r=Math.min(2,devicePixelRatio||1);c.width=W*r;c.height=H*r;c.style.cssText="position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:200";x.scale(r,r);document.body.appendChild(c);
- const C=["#D90429","#FFB703","#FF5A6E","#12805C","#3A86FF","#8338EC","#FB5607","#FFD76A"],B=[],t0=performance.now();
- for(let i=0;i<26;i++){const rr=18+Math.random()*16;B.push({x:Math.random()*W,y:H+rr*2+Math.random()*H*.6,r:rr,v:3.2+Math.random()*3.4,p:Math.random()*6,a:8+Math.random()*16,c:C[i%C.length]})}
- const draw=b=>{const bx=b.x+Math.sin(b.p)*b.a,by=b.y,rx=b.r*.86,ry=b.r;x.strokeStyle="rgba(120,120,120,.6)";x.lineWidth=1;x.beginPath();x.moveTo(bx,by+ry+4);x.bezierCurveTo(bx-8,by+ry+20,bx+8,by+ry+34,bx-2,by+ry+52);x.stroke();
-  x.fillStyle=b.c;x.beginPath();x.moveTo(bx-4,by+ry+5);x.lineTo(bx+4,by+ry+5);x.lineTo(bx,by+ry-1);x.fill();
-  const g=x.createRadialGradient(bx-rx*.35,by-ry*.4,ry*.1,bx,by,ry*1.1);g.addColorStop(0,"rgba(255,255,255,.75)");g.addColorStop(.25,b.c);g.addColorStop(1,b.c);x.fillStyle=g;x.beginPath();x.ellipse(bx,by,rx,ry,0,0,7);x.fill()};
- (function f(t){const e=t-t0;x.clearRect(0,0,W,H);let alive=0;for(const b of B){b.y-=b.v;b.p+=.045;if(b.y>-b.r*3){alive++;draw(b)}}if(alive&&e<9000)requestAnimationFrame(f);else c.remove()})(t0)}
+ const t0=performance.now(),DUR=3200,N=Math.max(8,Math.round(W/46)),F=[],E=[];
+ for(let i=0;i<N;i++){const big=Math.random()<.45;F.push({x:(i+.5)*W/N+(Math.random()-.5)*20,w:(big?.3:.2)*W*(.8+Math.random()*.5),h:H*(big?.58:.36)*(.75+Math.random()*.5),p:Math.random()*9,s:5+Math.random()*5,c:(Math.random()-.5)*.5})}
+ F.sort((a,b)=>b.h-a.h);
+ const tongue=(bx,by,w,h,lean,ph,fill)=>{const tx=bx+lean*h*.6+Math.sin(ph)*w*.5,ty=by-h;x.beginPath();x.moveTo(bx-w/2,by);
+  x.bezierCurveTo(bx-w*.62,by-h*.38,tx-w*.28+Math.sin(ph*1.3)*w*.18,ty+h*.42,tx,ty);
+  x.bezierCurveTo(tx+w*.18+Math.cos(ph*1.1)*w*.16,ty+h*.38,bx+w*.66,by-h*.34,bx+w/2,by);x.closePath();x.fillStyle=fill;x.fill()};
+ const grad=(by,h,a,b,c)=>{const g=x.createLinearGradient(0,by,0,by-h);g.addColorStop(0,a);g.addColorStop(.55,b);g.addColorStop(1,c);return g};
+ (function f(t){const e=t-t0,k=Math.min(1,e/280),out=Math.max(0,Math.min(1,(DUR-e)/600)),gr=k*out;x.clearRect(0,0,W,H);
+  const gl=x.createLinearGradient(0,H,0,H*.35);gl.addColorStop(0,`rgba(255,120,0,${.5*gr})`);gl.addColorStop(1,"rgba(255,60,0,0)");x.fillStyle=gl;x.fillRect(0,0,W,H);
+  const by=H+8,tt=e/1000;
+  for(const q of F){const ph=tt*q.s+q.p,h=q.h*gr*(.85+.18*Math.sin(ph*1.7)+.08*Math.sin(ph*3.1)),w=q.w*(.9+.1*Math.sin(ph*2.3));if(h<4)continue;const L=q.c+.06*Math.sin(ph*.9);
+   x.shadowColor="rgba(255,90,0,.9)";x.shadowBlur=26;tongue(q.x,by,w,h,L,ph,grad(by,h,"#D81E05","#F04A0C","rgba(250,110,20,.9)"));x.shadowBlur=0;
+   tongue(q.x,by,w*.72,h*.8,L,ph+.4,grad(by,h*.8,"#FF7A0A","#FF9A12","#FFB52B"));
+   tongue(q.x,by,w*.45,h*.55,L,ph+.8,grad(by,h*.55,"#FFE36B","#FFD23A","#FFF2B0"));
+   tongue(q.x,by,w*.2,h*.28,L,ph+1.1,"rgba(255,252,225,.95)")}
+  if(e<DUR-500)for(let i=0;i<3;i++)E.push({x:Math.random()*W,y:H-Math.random()*H*.25,vx:(Math.random()-.5)*2,vy:-(4+Math.random()*7),l:0,L:30+Math.random()*40,s:2+Math.random()*3.5});
+  for(const p of E){if(p.l>p.L)continue;p.l++;p.x+=p.vx+Math.sin(p.l*.3)*.9;p.y+=p.vy;p.vy*=.99;const a=1-p.l/p.L;x.fillStyle=`rgba(255,${150+(a*90|0)},40,${a})`;x.beginPath();x.ellipse(p.x,p.y,p.s*.6,p.s,Math.sin(p.l*.2),0,7);x.fill()}
+  if(e<DUR+400)requestAnimationFrame(f);else c.remove()})(t0)}
 function winBadge(pc){const o=document.createElement("div");o.className="winb";o.setAttribute("role","status");o.innerHTML=`<div><small>🔥 مبروك! 🔥</small><b>ربحت خصم</b><i><bdi>${pc}%</bdi></i><span>${pc>=(+(S.of||{}).b||30)?"أعلى خصم بالعرض":"ضيف قطعة ثالثة وخصمك يصير "+"\u2066"+(+(S.of||{}).b||30)+"%\u2069"}</span></div>`;document.body.appendChild(o);setTimeout(()=>o.classList.add("out"),2700);setTimeout(()=>o.remove(),3200)}
 function checkOffer(){const n=sum()[0],pc=offPct(n);if(LPC>=0&&pc>LPC){confetti();try{navigator.vibrate&&navigator.vibrate([90,50,90,50,220])}catch(e){};toast("🎉 مبروك! انطبق عليك خصم \u2066"+pc+"%\u2069")}LPC=pc}
 function badge(bump){checkOffer();const n=sum()[0],b=$("#bdg");if(!b)return;b.hidden=!n;b.textContent=n;if(bump){b.classList.remove("pop");void b.offsetWidth;b.classList.add("pop")}}
