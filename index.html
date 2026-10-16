@@ -244,6 +244,8 @@ const ping=(at,f,d,v)=>{const o=A.createOscillator(),g=A.createGain();o.frequenc
 nz(0,.25,.7,2500);nz(0,.08,.5,800);
 for(let i=0;i<9;i++)ping(Math.random()*.05,3000+Math.random()*4500,.15+Math.random()*.25,.08);
 for(let i=0;i<7;i++){const at=.12+i*.05+Math.random()*.04;ping(at,4000+Math.random()*4000,.08+Math.random()*.1,.05);nz(at,.04,.15,5000)}}catch(e){}}
+function wood(){try{const A=ACX||(ACX=new(window.AudioContext||window.webkitAudioContext)());if(A.state=="suspended")A.resume();const t=A.currentTime+.02,m=A.createGain();m.gain.value=.5;m.connect(A.destination);const d=A.createDelay(),f=A.createGain(),w=A.createGain();d.delayTime.value=.06;f.gain.value=.15;w.gain.value=.1;m.connect(d);d.connect(f);f.connect(d);d.connect(w);w.connect(A.destination);
+[[523.25,.25,.3],[2093,.06,.06]].forEach(([fr,du,v])=>{const o=A.createOscillator(),g=A.createGain();o.frequency.value=fr;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.002);g.gain.exponentialRampToValueAtTime(.0005,t+du);o.connect(g);g.connect(m);o.start(t);o.stop(t+du+.05)})}catch(e){}}
 function chime(big){try{const A=ACX||(ACX=new(window.AudioContext||window.webkitAudioContext)());if(A.state=="suspended")A.resume();const t=A.currentTime+.03,m=A.createGain();m.gain.value=big?.6:.5;m.connect(A.destination);
  const d=A.createDelay(),f=A.createGain(),w=A.createGain();d.delayTime.value=.15;f.gain.value=.35;w.gain.value=.3;m.connect(d);d.connect(f);f.connect(d);d.connect(w);w.connect(A.destination);
  const bell=(fr,at,du,v)=>{const c=A.createOscillator(),mo=A.createOscillator(),mg=A.createGain(),g=A.createGain();c.frequency.value=fr;mo.frequency.value=fr*3.5;mg.gain.setValueAtTime(fr*1.4,t+at);mg.gain.exponentialRampToValueAtTime(fr*.04,t+at+du*.6);mo.connect(mg);mg.connect(c.frequency);g.gain.setValueAtTime(0,t+at);g.gain.linearRampToValueAtTime(v,t+at+.005);g.gain.exponentialRampToValueAtTime(.0005,t+at+du);c.connect(g);g.connect(m);c.start(t+at);mo.start(t+at);c.stop(t+at+du+.05);mo.stop(t+at+du+.05)};
@@ -422,7 +424,7 @@ function checkHash(){const m=location.hash.match(/^#p=(.+)$/);if(m&&loaded&&!$("
 document.addEventListener("input",e=>{if(e.target.id=="pbq"){const v=nz(e.target.value.trim());document.querySelectorAll(".mdl").forEach(b=>b.hidden=!!v&&!nz(b.textContent).includes(v))}});
 addEventListener("hashchange",()=>{checkHash();techView()});
 /* events */
-function inc(id,d){const p=G(id);if(!p||p.o||!(p.p>0))return;if(d>0)buzz();cart[id]=(cart[id]||0)+d;if(cart[id]<=0)delete cart[id];sv();badge(d>0);refreshCtl(id);if(tab=="cart")cartView()}
+function inc(id,d){const p=G(id);if(!p||p.o||!(p.p>0))return;if(d>0){buzz();wood()}cart[id]=(cart[id]||0)+d;if(cart[id]<=0)delete cart[id];sv();badge(d>0);refreshCtl(id);if(tab=="cart")cartView()}
 document.addEventListener("click",async e=>{const t=e.target.closest("button,[data-tab-go]");if(!t){if(e.target.id=="ov")close();if(e.target.id=="dov")closeDrawer();return}const d=t.dataset;
  if(d.tab){if(d.tab=="home"&&tab=="home"&&sec){sec="";q="";home();window.scrollTo(0,0)}else setTab(d.tab)}else if(d.tabGo)setTab(d.tabGo);
  else if(d.sec!==undefined){closeDrawer();sec=d.sec;q="";brd="";if(sec=="fix"){cat="m";pbM=""}else if(sec)cat="all";if(tab!="home")setTab("home");else{home();window.scrollTo(0,0)}}
