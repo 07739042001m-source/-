@@ -179,7 +179,12 @@ function confetti(){if(matchMedia("(prefers-reduced-motion: reduce)").matches)re
   for(const p of E){if(p.l>p.L)continue;p.l++;p.x+=p.vx+Math.sin(p.l*.3)*.9;p.y+=p.vy;p.vy*=.99;const a=1-p.l/p.L;x.fillStyle=`rgba(255,${150+(a*90|0)},40,${a})`;x.beginPath();x.ellipse(p.x,p.y,p.s*.6,p.s,Math.sin(p.l*.2),0,7);x.fill()}
   if(e<DUR+400)requestAnimationFrame(f);else c.remove()})(t0)}
 function winBadge(pc){const o=document.createElement("div");o.className="winb";o.setAttribute("role","status");o.innerHTML=`<div><small>🔥 مبروك! 🔥</small><b>ربحت خصم</b><i><bdi>${pc}%</bdi></i><span>${pc>=(+(S.of||{}).b||30)?"أعلى خصم بالعرض":"ضيف قطعة ثالثة وخصمك يصير "+"\u2066"+(+(S.of||{}).b||30)+"%\u2069"}</span></div>`;document.body.appendChild(o);setTimeout(()=>o.classList.add("out"),2700);setTimeout(()=>o.remove(),3200)}
-function checkOffer(){const n=sum()[0],pc=offPct(n);if(LPC>=0&&pc>LPC){confetti();try{navigator.vibrate&&navigator.vibrate([90,50,90,50,220])}catch(e){};toast("🎉 مبروك! انطبق عليك خصم \u2066"+pc+"%\u2069")}LPC=pc}
+let ACX=null;function chime(){try{const A=ACX||(ACX=new(window.AudioContext||window.webkitAudioContext)());if(A.state=="suspended")A.resume();const t=A.currentTime+.02,m=A.createGain();m.gain.value=.55;m.connect(A.destination);
+ const note=(f,at,d,type,v)=>{const o=A.createOscillator(),g=A.createGain();o.type=type;o.frequency.setValueAtTime(f,t+at);g.gain.setValueAtTime(0,t+at);g.gain.linearRampToValueAtTime(v,t+at+.012);g.gain.exponentialRampToValueAtTime(.0008,t+at+d);o.connect(g);g.connect(m);o.start(t+at);o.stop(t+at+d+.05)};
+ [[523.25,0],[659.25,.07],[783.99,.14],[1046.5,.21],[1318.5,.3]].forEach(([f,a],i)=>{note(f,a,.38,"triangle",.32);note(f*2,a,.18,"sine",.08)});
+ [[1567.98,.42],[2093,.48],[1975.5,.55],[2637,.6]].forEach(([f,a])=>note(f,a,.5,"sine",.12));
+ note(130.81,.0,.35,"sine",.35);note(196,.21,.4,"sine",.25)}catch(e){}}
+function checkOffer(){const n=sum()[0],pc=offPct(n);if(LPC>=0&&pc>LPC){confetti();chime();try{navigator.vibrate&&navigator.vibrate([90,50,90,50,220])}catch(e){};toast("🎉 مبروك! انطبق عليك خصم \u2066"+pc+"%\u2069")}LPC=pc}
 function badge(bump){checkOffer();const n=sum()[0],b=$("#bdg");if(!b)return;b.hidden=!n;b.textContent=n;if(bump){b.classList.remove("pop");void b.offsetWidth;b.classList.add("pop")}}
 let sec="";
 function home(){const v=$("#view"),fee=S.fee.d;
