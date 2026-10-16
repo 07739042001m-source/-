@@ -158,7 +158,12 @@ function shell(){
 }
 function setTab(t){tab=t;document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("on",b.dataset.tab==t));render();window.scrollTo(0,0)}
 function render(){if(tab=="home")home();else if(tab=="cart")cartView();else if(tab=="orders")ordersView();else meView();badge()}
-function badge(bump){const n=sum()[0],b=$("#bdg");if(!b)return;b.hidden=!n;b.textContent=n;if(bump){b.classList.remove("pop");void b.offsetWidth;b.classList.add("pop")}}
+let LPC=-1;
+function confetti(){if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;const c=document.createElement("canvas"),x=c.getContext("2d"),W=innerWidth,H=innerHeight,r=devicePixelRatio||1;c.width=W*r;c.height=H*r;c.style.cssText="position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:200";x.scale(r,r);document.body.appendChild(c);
+ const C=["#D90429","#FFD76A","#ffffff","#FF5A6E","#12805C","#8C0A1F"],P=[];for(let i=0;i<170;i++){const s=i%2?-1:1;P.push({x:s<0?W*.08:W*.92,y:H*.62,vx:s*-(2+Math.random()*7),vy:-(9+Math.random()*9),g:.32+Math.random()*.12,w:6+Math.random()*7,h:4+Math.random()*5,a:Math.random()*6,va:(Math.random()-.5)*.35,c:C[i%C.length],o:1})}
+ const t0=performance.now();(function f(t){x.clearRect(0,0,W,H);let alive=0;for(const p of P){p.vy+=p.g;p.vx*=.992;p.x+=p.vx;p.y+=p.vy;p.a+=p.va;if(t-t0>1600)p.o-=.02;if(p.o>0&&p.y<H+20){alive++;x.save();x.globalAlpha=Math.max(0,p.o);x.translate(p.x,p.y);x.rotate(p.a);x.fillStyle=p.c;x.fillRect(-p.w/2,-p.h/2,p.w,p.h);x.restore()}}if(alive&&t-t0<4000)requestAnimationFrame(f);else c.remove()})(t0)}
+function checkOffer(){const n=sum()[0],pc=offPct(n);if(LPC>=0&&pc>LPC){confetti();buzz&&buzz();toast("🎉 مبروك! انطبق عليك خصم \u2066"+pc+"%\u2069")}LPC=pc}
+function badge(bump){checkOffer();const n=sum()[0],b=$("#bdg");if(!b)return;b.hidden=!n;b.textContent=n;if(bump){b.classList.remove("pop");void b.offsetWidth;b.classList.add("pop")}}
 let sec="";
 function home(){const v=$("#view"),fee=S.fee.d;
  if(!sec){if(!v.querySelector(".secs")){v.dataset.sec="";const nd=PB.reduce((a,b)=>a+b[2].length,0);
