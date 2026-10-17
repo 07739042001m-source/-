@@ -137,7 +137,7 @@ if(AC){cu.n=AC.n||"";cu.p=AC.p||"";cu.a=AC.a||""}
 const sv=()=>{try{localStorage.setItem("yq_cart",JSON.stringify(cart))}catch(e){}};
 const sa=()=>{try{AC?localStorage.setItem("yq_acct",JSON.stringify(AC)):localStorage.removeItem("yq_acct")}catch(e){}};
 const G=id=>PR.find(p=>p.id==id);
-const sum=()=>{let n=0,t=0;for(const id in cart){const p=G(id);if(p){n+=cart[id];t+=cart[id]*p.p}}return[n,t]};
+const okC=p=>p&&!p.o&&p.p>0&&vis(p);const sum=()=>{let n=0,t=0;for(const id in cart){const p=G(id);if(okC(p)){n+=cart[id];t+=cart[id]*p.p}}return[n,t]};
 const offPct=n=>{const o=S.of||{};return !o.on?0:n>=3?(+o.b||0):n>=2?(+o.a||0):0};
 const disc=()=>{const[n,t]=sum(),pc=offPct(n);return{n,t,pc,d:pc?Math.round(t*pc/100/250)*250:0}};
 const MAS=["wave","jump","wink","spin","dance","peek","love"],MSG={wave:"هلا بيك! 👋",jump:"يلا نتسوّق 💪",wink:"عندي عرض إلك 😉",spin:"شوف الجديد 😎",dance:"خصم لحد 30%! 🎉",peek:"آني ياقوتي 🤖",love:"نورتنا ❤️"};
@@ -494,7 +494,7 @@ document.addEventListener("change",e=>{if(e.target.id!="ef"||!e.target.files[0])
 document.addEventListener("keydown",e=>{if(e.key=="Escape"){close();closeDrawer()}});
 /* boot */
 shell();render();techView();
-API.onProducts(L=>{const first=!loaded;PR=mergeACC(L).map(p=>p.img&&/^(p\d+|products\/x\d+)\.jpg$/.test(p.img)?{...p,img:p.img+"?v=8"}:p);loaded=true;if(first)setTimeout(checkHash,0);for(const id in cart)if(!G(id))delete cart[id];if(tab=="home")grid();else if(tab=="cart")cartView();badge();if(OWN&&atab=="p"&&$("#ad")&&$("#sh").classList.contains("on"))prodTab()});
+API.onProducts(L=>{const first=!loaded;PR=mergeACC(L).map(p=>p.img&&/^(p\d+|products\/x\d+)\.jpg$/.test(p.img)?{...p,img:p.img+"?v=8"}:p);loaded=true;if(first)setTimeout(checkHash,0);for(const id in cart)if(!okC(G(id)))delete cart[id];sv();if(tab=="home")grid();else if(tab=="cart")cartView();badge();if(OWN&&atab=="p"&&$("#ad")&&$("#sh").classList.contains("on"))prodTab()});
 API.onSettings(x=>{S={tg:x.tg||"",tc:x.tc||"",of:{on:1,a:20,b:30,...(x.of||{})},np:x.np||"",nk:x.nk||"",cm:+x.cm||0,about:x.about||"",ph:(x.ph&&x.ph.length)?x.ph:S.ph,wa:x.wa||S.wa,dr:(x.dr&&x.dr.length>1)?x.dr:S.dr,fee:{...S.fee,...(x.fee||{})}};if(tab=="cart")cartView();offerBar()});
 API.onUser(o=>{OWN=!!o;ROLE=o||"";if(ROLE=="a"&&!"pk".includes(atab))atab="p";if(OWN)API.onStock(m=>{STK=m;if(atab=="k"&&$("#ad")&&$("#sh").classList.contains("on"))stockTab()});$("#adm").hidden=!OWN;if(OWN)hideGate();else gate();if(tab=="me")meView();if(tab=="home")grid()});
 API.onMyOrders(L=>{MY=L;if(tab=="orders")ordersView()});
