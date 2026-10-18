@@ -1,0 +1,4460 @@
+[
+ {
+  "file": "i1.jpg",
+  "name": "شاحن سامسونج 60 واط",
+  "brand": "Samsung",
+  "category": "شاحن"
+ },
+ {
+  "file": "i2.jpg",
+  "name": "كيبل مونستر U Link CC710",
+  "brand": "Monster",
+  "category": "كيبل"
+ },
+ {
+  "file": "i3.jpg",
+  "name": "كيبل 3 في 1 نيوستوب 100 واط",
+  "brand": "NewStop",
+  "category": "كيبل"
+ },
+ {
+  "file": "i4.jpg",
+  "name": "باور بانك 40000 ملي أمبير",
+  "brand": "Power Bank",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i5.jpg",
+  "name": "سماعة لاسلكية Hit-Buds R2",
+  "brand": "Hit-Buds",
+  "category": "سماعة"
+ },
+ {
+  "file": "i6.jpg",
+  "name": "سماعة لاسلكية A11 Pro",
+  "brand": "A11 Pro",
+  "category": "سماعة"
+ },
+ {
+  "file": "i7.jpg",
+  "name": "حامل موبايل قابل للطي",
+  "brand": "Folding Bracket",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i8.jpg",
+  "name": "حامل مكتبي ألمنيوم",
+  "brand": "Alloy Desktop Bracket",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i9.jpg",
+  "name": "سبيكر JBL M3 ميني",
+  "brand": "JBL",
+  "category": "سماعة"
+ },
+ {
+  "file": "i10.jpg",
+  "name": "سماعة رقبة ساوندكور",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i11.jpg",
+  "name": "حامل موبايل للسيارة جرافيتي",
+  "brand": "Gravity",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i12.jpg",
+  "name": "سماعة ألعاب X11",
+  "brand": "Call of Duty X11",
+  "category": "سماعة"
+ },
+ {
+  "file": "i13.jpg",
+  "name": "شاحن نيوستوب PD-USB CH-7",
+  "brand": "NewStop",
+  "category": "شاحن"
+ },
+ {
+  "file": "i14.jpg",
+  "name": "سماعة رقبة نيوستوب KL50",
+  "brand": "NewStop",
+  "category": "سماعة"
+ },
+ {
+  "file": "i15.jpg",
+  "name": "سماعة لاسلكية M10",
+  "brand": "M10",
+  "category": "سماعة"
+ },
+ {
+  "file": "i16.jpg",
+  "name": "شاحن شاومي 67 واط",
+  "brand": "Xiaomi",
+  "category": "شاحن"
+ },
+ {
+  "file": "i17.jpg",
+  "name": "سماعة لاسلكية ساوندكور",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i18.jpg",
+  "name": "شاحن سامسونج 45 واط",
+  "brand": "Samsung",
+  "category": "شاحن"
+ },
+ {
+  "file": "i19.jpg",
+  "name": "شاحن نيوستوب 200 واط",
+  "brand": "NewStop",
+  "category": "شاحن"
+ },
+ {
+  "file": "i20.jpg",
+  "name": "سماعة لاسلكية ريدنگتون ANC",
+  "brand": "Redington",
+  "category": "سماعة"
+ },
+ {
+  "file": "i21.jpg",
+  "name": "سبيكر بلوتوث محمول",
+  "brand": "Speaker",
+  "category": "سماعة"
+ },
+ {
+  "file": "i22.jpg",
+  "name": "سماعة لاسلكية أورايمو",
+  "brand": "Oraimo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i23.jpg",
+  "name": "شاحن ريلمي 65 واط",
+  "brand": "Realme",
+  "category": "شاحن"
+ },
+ {
+  "file": "i24.jpg",
+  "name": "سماعة كيكي إيربود 3",
+  "brand": "Kiki",
+  "category": "سماعة"
+ },
+ {
+  "file": "i25.jpg",
+  "name": "زجاج حماية كوبرا",
+  "brand": "Cobra",
+  "category": "حماية"
+ },
+ {
+  "file": "i26.jpg",
+  "name": "كيبل شحن 120 واط",
+  "brand": "Hoco",
+  "category": "كيبل"
+ },
+ {
+  "file": "i27.jpg",
+  "name": "ستاند آيباد معدني قابل للطي",
+  "brand": "Foldable Metal Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i28.jpg",
+  "name": "قلم آيباد",
+  "brand": "Stylus",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i29.jpg",
+  "name": "سماعة هوكو EA6 أوبن إير",
+  "brand": "Hoco",
+  "category": "سماعة"
+ },
+ {
+  "file": "i30.jpg",
+  "name": "هب 4 في 1",
+  "brand": "Hub",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i31.jpg",
+  "name": "محول HDMI",
+  "brand": "Adapter",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i32.jpg",
+  "name": "كيبل تحويل AUX",
+  "brand": "AUX",
+  "category": "كيبل"
+ },
+ {
+  "file": "i33.jpg",
+  "name": "شاحن ونسام USB+PD",
+  "brand": "Onesam",
+  "category": "شاحن"
+ },
+ {
+  "file": "i34.jpg",
+  "name": "زجاج حماية مضاد للكهرباء الساكنة",
+  "brand": "Anti-Static 150",
+  "category": "حماية"
+ },
+ {
+  "file": "i35.jpg",
+  "name": "سماعة إيربود برو",
+  "brand": "AirPods Pro",
+  "category": "سماعة"
+ },
+ {
+  "file": "i36.jpg",
+  "name": "سماعة رقبة BG",
+  "brand": "BG",
+  "category": "سماعة"
+ },
+ {
+  "file": "i37.jpg",
+  "name": "كيبل كلكسي مايكرو USB",
+  "brand": "Micro USB",
+  "category": "كيبل"
+ },
+ {
+  "file": "i38.jpg",
+  "name": "سماعة فين دنس برو",
+  "brand": "Ven-Dens",
+  "category": "سماعة"
+ },
+ {
+  "file": "i39.jpg",
+  "name": "باور بانك فين دنس 20000",
+  "brand": "Ven-Dens",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i40.jpg",
+  "name": "باور بانك فين دنس 5000",
+  "brand": "Ven-Dens",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i41.jpg",
+  "name": "كيبل HDMI 8K",
+  "brand": "Ven-Dens",
+  "category": "كيبل"
+ },
+ {
+  "file": "i42.jpg",
+  "name": "قلم ستايلس ذكي",
+  "brand": "Ven-Dens",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i43.jpg",
+  "name": "حامل موبايل للسيارة فين دنس",
+  "brand": "Ven-Dens",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i44.jpg",
+  "name": "كيبل آيفون جاوي",
+  "brand": "JAWY",
+  "category": "كيبل"
+ },
+ {
+  "file": "i45.jpg",
+  "name": "سماعة كيري إيربود برو 2",
+  "brand": "Kiri",
+  "category": "سماعة"
+ },
+ {
+  "file": "i46.jpg",
+  "name": "شاحن ماگ سيف لاسلكي",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i47.jpg",
+  "name": "سماعة رأس بلكن ساوند فورم",
+  "brand": "Belkin",
+  "category": "سماعة"
+ },
+ {
+  "file": "i48.jpg",
+  "name": "كيبل تايب سي مضفر",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i49.jpg",
+  "name": "سبيكر بلوتوث",
+  "brand": "Speaker",
+  "category": "سماعة"
+ },
+ {
+  "file": "i50.jpg",
+  "name": "باور بانك فين دنس 8000 ماگ سيف",
+  "brand": "Ven-Dens",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i51.jpg",
+  "name": "كيبل تايب سي إلى ديسبلي بورت 8K",
+  "brand": "Ven-Dens",
+  "category": "كيبل"
+ },
+ {
+  "file": "i52.jpg",
+  "name": "شاحن سيارة فين دنس 60 واط",
+  "brand": "Ven-Dens",
+  "category": "شاحن"
+ },
+ {
+  "file": "i53.jpg",
+  "name": "حامل سيارة فين دنس",
+  "brand": "Ven-Dens",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i54.jpg",
+  "name": "حامل موبايل للسيارة",
+  "brand": "Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i55.jpg",
+  "name": "شفت ببجي K01",
+  "brand": "K01",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i56.jpg",
+  "name": "كيبل HDTV طول 3 متر",
+  "brand": "HDTV",
+  "category": "كيبل"
+ },
+ {
+  "file": "i57.jpg",
+  "name": "شاحن PD 150 واط",
+  "brand": "PD Adapter",
+  "category": "شاحن"
+ },
+ {
+  "file": "i58.jpg",
+  "name": "شاحن آيفون 17 برو ماكس",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i59.jpg",
+  "name": "مبرد موبايل فريز",
+  "brand": "Freeze",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i60.jpg",
+  "name": "كيبل فين دنس تايب سي لآيفون 27 واط",
+  "brand": "Ven-Dens",
+  "category": "كيبل"
+ },
+ {
+  "file": "i61.jpg",
+  "name": "كيبل فين دنس 4 في 1 60 واط",
+  "brand": "Ven-Dens",
+  "category": "كيبل"
+ },
+ {
+  "file": "i62.jpg",
+  "name": "كيبل فين دنس مايكرو 2.4A",
+  "brand": "Ven-Dens",
+  "category": "كيبل"
+ },
+ {
+  "file": "i63.jpg",
+  "name": "شاحن كاكو 2.4A",
+  "brand": "KAKU",
+  "category": "شاحن"
+ },
+ {
+  "file": "i64.jpg",
+  "name": "كيبل أورنج فاست جارجنگ",
+  "brand": "Orange",
+  "category": "كيبل"
+ },
+ {
+  "file": "i65.jpg",
+  "name": "زجاج حماية كوبرا أونر",
+  "brand": "Cobra",
+  "category": "حماية"
+ },
+ {
+  "file": "i66.jpg",
+  "name": "شاحن يوگرين 65 واط GaN روبرت",
+  "brand": "Ugreen",
+  "category": "شاحن"
+ },
+ {
+  "file": "i67.jpg",
+  "name": "موبايل أونر X8d",
+  "brand": "Honor",
+  "category": "موبايل"
+ },
+ {
+  "file": "i68.jpg",
+  "name": "ستاند سيارة L3T",
+  "brand": "L3T",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i69.jpg",
+  "name": "سماعة إيربود أمريكي",
+  "brand": "AirPods Pro",
+  "category": "سماعة"
+ },
+ {
+  "file": "i70.jpg",
+  "name": "سماعة إيربود ANC",
+  "brand": "AirPods Pro 2",
+  "category": "سماعة"
+ },
+ {
+  "file": "i71.jpg",
+  "name": "سماعة آيفون سلكية تايب سي/لايتننگ",
+  "brand": "Apple",
+  "category": "سماعة"
+ },
+ {
+  "file": "i72.jpg",
+  "name": "سماعة ENC ستيريو",
+  "brand": "Stereo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i73.jpg",
+  "name": "سماعة لاسلكية Q71",
+  "brand": "CYXG",
+  "category": "سماعة"
+ },
+ {
+  "file": "i74.jpg",
+  "name": "سماعة لاسلكية ستيريو",
+  "brand": "Stereo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i75.jpg",
+  "name": "فاصل شحن ذكي تايب سي",
+  "brand": "Smart Charging",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i76.jpg",
+  "name": "باور بانك زيوار 30000",
+  "brand": "SIWAR",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i77.jpg",
+  "name": "شاحن 120 واط ويا كيبل",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i78.jpg",
+  "name": "شاحن أنكر 22.5 واط",
+  "brand": "Anker",
+  "category": "شاحن"
+ },
+ {
+  "file": "i79.jpg",
+  "name": "سماعة أورايمو ألتميت كومفورت",
+  "brand": "Oraimo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i80.jpg",
+  "name": "كيبل أنكر",
+  "brand": "Anker",
+  "category": "كيبل"
+ },
+ {
+  "file": "i81.jpg",
+  "name": "كيبل مكدودو",
+  "brand": "Mcdodo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i82.jpg",
+  "name": "ساعة ذكية",
+  "brand": "Smart Watch",
+  "category": "ساعة"
+ },
+ {
+  "file": "i83.jpg",
+  "name": "مايك هافيت للتسجيل",
+  "brand": "Havit",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i84.jpg",
+  "name": "سماعة ساوندكور R50i NC",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i85.jpg",
+  "name": "شاحن آيفون 25 واط PD",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i86.jpg",
+  "name": "سماعة رأس سوبر باس AKZ16",
+  "brand": "AKZ",
+  "category": "سماعة"
+ },
+ {
+  "file": "i87.jpg",
+  "name": "سماعة ألعاب هافيت 3.5 ملم",
+  "brand": "Havit",
+  "category": "سماعة"
+ },
+ {
+  "file": "i88.jpg",
+  "name": "كيبل HDMI هافيت HV-X68",
+  "brand": "Havit",
+  "category": "كيبل"
+ },
+ {
+  "file": "i89.jpg",
+  "name": "حامل موبايل هافيت",
+  "brand": "Havit",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i90.jpg",
+  "name": "هب USB هافيت للألعاب",
+  "brand": "Havit",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i91.jpg",
+  "name": "سماعة رأس JBL",
+  "brand": "JBL",
+  "category": "سماعة"
+ },
+ {
+  "file": "i92.jpg",
+  "name": "حماية عدسات الكاميرا",
+  "brand": "Lens Film",
+  "category": "حماية"
+ },
+ {
+  "file": "i93.jpg",
+  "name": "ساعة ذكية S2000",
+  "brand": "S2000",
+  "category": "ساعة"
+ },
+ {
+  "file": "i94.jpg",
+  "name": "شاحن تايب سي 120 واط",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i95.jpg",
+  "name": "ستاند مغناطيسي متعدد الاستخدامات",
+  "brand": "Magnetic Bracket",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i96.jpg",
+  "name": "سماعة أوكس",
+  "brand": "Earphone",
+  "category": "سماعة"
+ },
+ {
+  "file": "i97.jpg",
+  "name": "زجاج حماية كنگ كونگ",
+  "brand": "KingKong",
+  "category": "حماية"
+ },
+ {
+  "file": "i98.jpg",
+  "name": "باور بانك ماگ سيف",
+  "brand": "Power Bank",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i99.jpg",
+  "name": "كيبل مكدودو USB-A إلى تايب سي",
+  "brand": "Mcdodo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i100.jpg",
+  "name": "شاحن مكدودو ويا كيبل",
+  "brand": "Mcdodo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i101.jpg",
+  "name": "سماعة مكدودو ANC لاسلكية",
+  "brand": "Mcdodo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i102.jpg",
+  "name": "سماعة مكدودو سلكية",
+  "brand": "Mcdodo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i103.jpg",
+  "name": "ساعة ذكية سيريس 11 كراون",
+  "brand": "Crown",
+  "category": "ساعة"
+ },
+ {
+  "file": "i104.jpg",
+  "name": "ساعة ذكية ألترا 2",
+  "brand": "Mibro",
+  "category": "ساعة"
+ },
+ {
+  "file": "i105.jpg",
+  "name": "مبرد موبايل ميمو",
+  "brand": "Memo",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i106.jpg",
+  "name": "مبرد موبايل DLAB",
+  "brand": "DLAB",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i107.jpg",
+  "name": "جنطة آيباد 10",
+  "brand": "Classic Case",
+  "category": "تابلت"
+ },
+ {
+  "file": "i108.jpg",
+  "name": "كيبل ضوئي آيفون USB",
+  "brand": "Pekomi",
+  "category": "كيبل"
+ },
+ {
+  "file": "i109.jpg",
+  "name": "كيبل متعدد قلاب 65 واط",
+  "brand": "Mecha",
+  "category": "كيبل"
+ },
+ {
+  "file": "i110.jpg",
+  "name": "توصيلة آيفون مشط مباشر",
+  "brand": "Apple",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i111.jpg",
+  "name": "سماعة ساوندكور R80i",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i112.jpg",
+  "name": "سماعة ساوندكور R50i",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i113.jpg",
+  "name": "شاحن فيكين PD 20 واط",
+  "brand": "V.KEEN",
+  "category": "شاحن"
+ },
+ {
+  "file": "i114.jpg",
+  "name": "جهاز تتبع ايرتاك سمارت",
+  "brand": "Smart Finder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i115.jpg",
+  "name": "كيس موبايل مقاوم للماء",
+  "brand": "Waterproof Bag",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i116.jpg",
+  "name": "سماعة لاسلكية AP03",
+  "brand": "AP03",
+  "category": "سماعة"
+ },
+ {
+  "file": "i117.jpg",
+  "name": "سماعة JBL باس",
+  "brand": "JBL",
+  "category": "سماعة"
+ },
+ {
+  "file": "i118.jpg",
+  "name": "سماعة لاسلكية بيضاء",
+  "brand": "Earbuds",
+  "category": "سماعة"
+ },
+ {
+  "file": "i119.jpg",
+  "name": "شاحن آيفون 16 برو",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i120.jpg",
+  "name": "سماعة تايب سي سلكية",
+  "brand": "Earphones",
+  "category": "سماعة"
+ },
+ {
+  "file": "i121.jpg",
+  "name": "شاحن تايب سي 35 واط",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i122.jpg",
+  "name": "كيبل آيفون أصلي",
+  "brand": "Apple",
+  "category": "كيبل"
+ },
+ {
+  "file": "i123.jpg",
+  "name": "كيبل تايب سي أصلي",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i124.jpg",
+  "name": "شاحن سامسونج 25 واط",
+  "brand": "Samsung",
+  "category": "شاحن"
+ },
+ {
+  "file": "i125.jpg",
+  "name": "زجاج حماية لارج آرك",
+  "brand": "Large Arc",
+  "category": "حماية"
+ },
+ {
+  "file": "i126.jpg",
+  "name": "ستاند معدني قابل للطي",
+  "brand": "Foldable Metal Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i127.jpg",
+  "name": "حامل مغناطيسي بالشفط",
+  "brand": "Vacuum Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i128.jpg",
+  "name": "شاحن سيارة ميميكو MS-CC108",
+  "brand": "Memeco",
+  "category": "شاحن"
+ },
+ {
+  "file": "i129.jpg",
+  "name": "شاحن سيارة جودس GD-CC206",
+  "brand": "Go-Des",
+  "category": "شاحن"
+ },
+ {
+  "file": "i130.jpg",
+  "name": "شاحن سيارة جودس GD-QC2029",
+  "brand": "Go-Des",
+  "category": "شاحن"
+ },
+ {
+  "file": "i131.jpg",
+  "name": "شاحن سيارة MS-CC221",
+  "brand": "Memeco",
+  "category": "شاحن"
+ },
+ {
+  "file": "i132.jpg",
+  "name": "فلاش 256 گيگا",
+  "brand": "Flash Drive",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i133.jpg",
+  "name": "رام مايكرو SD 8 گيگا",
+  "brand": "Micro SD",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i134.jpg",
+  "name": "كيبل آيفون ضوئي",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i135.jpg",
+  "name": "كيبل كتان 120 واط",
+  "brand": "Data Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i136.jpg",
+  "name": "حامل موبايل للسيارة",
+  "brand": "Brave Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i137.jpg",
+  "name": "سماعة رأس سلكية",
+  "brand": "Headphone",
+  "category": "سماعة"
+ },
+ {
+  "file": "i138.jpg",
+  "name": "شاحن نيوستوب PD 130 واط",
+  "brand": "NewStop",
+  "category": "شاحن"
+ },
+ {
+  "file": "i139.jpg",
+  "name": "سماعة رأس كولرز بلوتوث",
+  "brand": "Colors",
+  "category": "سماعة"
+ },
+ {
+  "file": "i140.jpg",
+  "name": "باور بانك طاقة شمسية",
+  "brand": "Power Bank",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i141.jpg",
+  "name": "سماعة نيوستوب ستيريو سوبر باس",
+  "brand": "NewStop",
+  "category": "سماعة"
+ },
+ {
+  "file": "i142.jpg",
+  "name": "سبيكر بلوتوث رمادي",
+  "brand": "Speaker",
+  "category": "سماعة"
+ },
+ {
+  "file": "i143.jpg",
+  "name": "زجاج حماية ماكسوس UV",
+  "brand": "Maxus",
+  "category": "حماية"
+ },
+ {
+  "file": "i144.jpg",
+  "name": "شاحن 20 واط UK-Pin",
+  "brand": "Adapter",
+  "category": "شاحن"
+ },
+ {
+  "file": "i145.jpg",
+  "name": "شاحن PD 20 واط فاست",
+  "brand": "Fast",
+  "category": "شاحن"
+ },
+ {
+  "file": "i146.jpg",
+  "name": "موبايل ريلمي C100i",
+  "brand": "Realme",
+  "category": "موبايل"
+ },
+ {
+  "file": "i147.jpg",
+  "name": "فلاش 4 گيگا",
+  "brand": "USB Flash Drive",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i148.jpg",
+  "name": "باور بانك ماگ سيف HDD",
+  "brand": "HDD",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i149.jpg",
+  "name": "زجاج حماية گلاس",
+  "brand": "Glass",
+  "category": "حماية"
+ },
+ {
+  "file": "i150.jpg",
+  "name": "مقبض كاميرا مغناطيسي KGB-300",
+  "brand": "Rousda",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i151.jpg",
+  "name": "باور بانك أورنج PW-B15",
+  "brand": "Orange",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i152.jpg",
+  "name": "سماعة سامسونج تايب سي",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i153.jpg",
+  "name": "سماعة آيفون تايب سي بلوتوث",
+  "brand": "Earphones",
+  "category": "سماعة"
+ },
+ {
+  "file": "i154.jpg",
+  "name": "حامل خاتم ماگ سيف HDD",
+  "brand": "HDD",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i155.jpg",
+  "name": "حماية كيفلار",
+  "brand": "HDD Kevlar",
+  "category": "حماية"
+ },
+ {
+  "file": "i156.jpg",
+  "name": "سماعة يوگرين لاسلكية",
+  "brand": "Ugreen",
+  "category": "سماعة"
+ },
+ {
+  "file": "i157.jpg",
+  "name": "باور بانك يوگرين 20 واط",
+  "brand": "Ugreen",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i158.jpg",
+  "name": "شاحن يوگرين 20 واط",
+  "brand": "Ugreen",
+  "category": "شاحن"
+ },
+ {
+  "file": "i159.jpg",
+  "name": "شاحن يوگرين نيكسود 65 واط",
+  "brand": "Ugreen",
+  "category": "شاحن"
+ },
+ {
+  "file": "i160.jpg",
+  "name": "سماعة يوگرين HiTune S5",
+  "brand": "Ugreen",
+  "category": "سماعة"
+ },
+ {
+  "file": "i161.jpg",
+  "name": "سماعة يوگرين HiTune S3",
+  "brand": "Ugreen",
+  "category": "سماعة"
+ },
+ {
+  "file": "i162.jpg",
+  "name": "ساعة ذكية واچ 8 ألترا 2",
+  "brand": "Watch 8 Ultra",
+  "category": "ساعة"
+ },
+ {
+  "file": "i163.jpg",
+  "name": "شاحن آبل 20 واط",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i164.jpg",
+  "name": "موبايل إنفنكس",
+  "brand": "Infinix",
+  "category": "موبايل"
+ },
+ {
+  "file": "i165.jpg",
+  "name": "كيبل ورقي 6A",
+  "brand": "Data Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i166.jpg",
+  "name": "رام مايكرو SD 2 گيگا",
+  "brand": "Micro SD",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i167.jpg",
+  "name": "رام سانديسك ألترا 8 گيگا",
+  "brand": "SanDisk",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i168.jpg",
+  "name": "رام سانديسك ألترا 128 گيگا",
+  "brand": "SanDisk",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i169.jpg",
+  "name": "سماعة تايب سي سلكية مباشر",
+  "brand": "Wired Headset",
+  "category": "سماعة"
+ },
+ {
+  "file": "i170.jpg",
+  "name": "كيبل HDTV متر ونص",
+  "brand": "HDTV",
+  "category": "كيبل"
+ },
+ {
+  "file": "i171.jpg",
+  "name": "شاحن كالكسي ثلاثي 2USB+PD",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i172.jpg",
+  "name": "شاحن آيفون ثلاثي 2USB",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i173.jpg",
+  "name": "شاحن آيفون ثلاثي ويا كيبل",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i174.jpg",
+  "name": "سماعة رأس محيطي",
+  "brand": "Headphone",
+  "category": "سماعة"
+ },
+ {
+  "file": "i175.jpg",
+  "name": "زجاج حماية ماكسوس",
+  "brand": "Maxus",
+  "category": "حماية"
+ },
+ {
+  "file": "i176.jpg",
+  "name": "سماعة رأس باس",
+  "brand": "Bass",
+  "category": "سماعة"
+ },
+ {
+  "file": "i177.jpg",
+  "name": "كيبل هوكو 36 واط بقاعدة ستاند",
+  "brand": "Hoco",
+  "category": "كيبل"
+ },
+ {
+  "file": "i178.jpg",
+  "name": "كيبل هوكو 60 واط بقاعدة ستاند",
+  "brand": "Hoco",
+  "category": "كيبل"
+ },
+ {
+  "file": "i179.jpg",
+  "name": "سماعة رأس ألعاب محيطي",
+  "brand": "Gaming Headset",
+  "category": "سماعة"
+ },
+ {
+  "file": "i180.jpg",
+  "name": "شاحن كالكسي 18 واط",
+  "brand": "Fast Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i181.jpg",
+  "name": "شاحن آيفون ضوئي 25 واط",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i182.jpg",
+  "name": "كيبل آيفون HR",
+  "brand": "HR",
+  "category": "كيبل"
+ },
+ {
+  "file": "i183.jpg",
+  "name": "حامل سيارة فين دنس مغناطيسي",
+  "brand": "Ven-Dens",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i184.jpg",
+  "name": "شاحن لاسلكي فين دنس 3 في 1",
+  "brand": "Ven-Dens",
+  "category": "شاحن"
+ },
+ {
+  "file": "i185.jpg",
+  "name": "سماعة فين دنس سلكية",
+  "brand": "Ven-Dens",
+  "category": "سماعة"
+ },
+ {
+  "file": "i186.jpg",
+  "name": "سماعة كاكوسيگا تايب سي",
+  "brand": "Kakusiga",
+  "category": "سماعة"
+ },
+ {
+  "file": "i187.jpg",
+  "name": "كيبل سامسونج تايب سي",
+  "brand": "Samsung",
+  "category": "كيبل"
+ },
+ {
+  "file": "i188.jpg",
+  "name": "شاحن سامسونج 65 واط ثلاثي",
+  "brand": "Samsung",
+  "category": "شاحن"
+ },
+ {
+  "file": "i189.jpg",
+  "name": "سماعة سامسونج AKG تايب سي",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i190.jpg",
+  "name": "موبايل تكنو سپارك گو",
+  "brand": "Tecno",
+  "category": "موبايل"
+ },
+ {
+  "file": "i191.jpg",
+  "name": "موبايل تكنو بوفا",
+  "brand": "Tecno",
+  "category": "موبايل"
+ },
+ {
+  "file": "i192.jpg",
+  "name": "موبايل سامسونج گالكسي A07",
+  "brand": "Samsung",
+  "category": "موبايل"
+ },
+ {
+  "file": "i193.jpg",
+  "name": "شاحن سيارة FM فين دنس",
+  "brand": "Ven-Dens",
+  "category": "شاحن"
+ },
+ {
+  "file": "i194.jpg",
+  "name": "شاحن سيارة فين دنس 30 واط",
+  "brand": "Ven-Dens",
+  "category": "شاحن"
+ },
+ {
+  "file": "i195.jpg",
+  "name": "موبايل أونر X7e",
+  "brand": "Honor",
+  "category": "موبايل"
+ },
+ {
+  "file": "i196.jpg",
+  "name": "موبايل تكنو سپارك 50",
+  "brand": "Tecno",
+  "category": "موبايل"
+ },
+ {
+  "file": "i197.jpg",
+  "name": "موبايل پوكو C81 پرو",
+  "brand": "Poco",
+  "category": "موبايل"
+ },
+ {
+  "file": "i198.jpg",
+  "name": "زجاج حماية أراف فل گلو",
+  "brand": "Araf",
+  "category": "حماية"
+ },
+ {
+  "file": "i199.jpg",
+  "name": "سماعة سامسونج 3.5 ملم",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i200.jpg",
+  "name": "سماعة إكسترا باس Z29",
+  "brand": "Headset",
+  "category": "سماعة"
+ },
+ {
+  "file": "i201.jpg",
+  "name": "زجاج حماية يوگرين",
+  "brand": "Ugreen",
+  "category": "حماية"
+ },
+ {
+  "file": "i202.jpg",
+  "name": "مايك لاسلكي K9",
+  "brand": "K9",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i203.jpg",
+  "name": "محول فين دنس USB إلى تايب سي",
+  "brand": "Ven-Dens",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i204.jpg",
+  "name": "محول فين دنس تايب سي إلى 3.5",
+  "brand": "Ven-Dens",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i205.jpg",
+  "name": "كيبل فين دنس تايب سي إلى DP",
+  "brand": "Ven-Dens",
+  "category": "كيبل"
+ },
+ {
+  "file": "i206.jpg",
+  "name": "كيبل أورنج",
+  "brand": "Orange",
+  "category": "كيبل"
+ },
+ {
+  "file": "i207.jpg",
+  "name": "سماعة جودس GD-EP202",
+  "brand": "Go-Des",
+  "category": "سماعة"
+ },
+ {
+  "file": "i208.jpg",
+  "name": "زجاج حماية برايفسي",
+  "brand": "Privacy",
+  "category": "حماية"
+ },
+ {
+  "file": "i209.jpg",
+  "name": "حماية عدسات آيفون 17 برو",
+  "brand": "Lens Film",
+  "category": "حماية"
+ },
+ {
+  "file": "i210.jpg",
+  "name": "كيبل كيري تايب سي",
+  "brand": "Kiri",
+  "category": "كيبل"
+ },
+ {
+  "file": "i211.jpg",
+  "name": "شاحن أورنج CH-46 GaN 20 واط",
+  "brand": "Orange",
+  "category": "شاحن"
+ },
+ {
+  "file": "i212.jpg",
+  "name": "سبيكر شاحن لاسلكي G بإضاءة",
+  "brand": "LED Wireless Charging Speaker",
+  "category": "سماعة"
+ },
+ {
+  "file": "i213.jpg",
+  "name": "زجاج حماية 9H",
+  "brand": "9H Glass",
+  "category": "حماية"
+ },
+ {
+  "file": "i214.jpg",
+  "name": "ساعة ذكية ألترا 4 UX4 7 في 1",
+  "brand": "Ultra 4",
+  "category": "ساعة"
+ },
+ {
+  "file": "i215.jpg",
+  "name": "كيبل تايب سي ضوئي",
+  "brand": "Pekomi",
+  "category": "كيبل"
+ },
+ {
+  "file": "i216.jpg",
+  "name": "كيبل متعدد قلاب 65 واط RC-C189",
+  "brand": "HR",
+  "category": "كيبل"
+ },
+ {
+  "file": "i217.jpg",
+  "name": "ساعة ذكية ألترا 3 F04",
+  "brand": "Ultra 3",
+  "category": "ساعة"
+ },
+ {
+  "file": "i218.jpg",
+  "name": "ساعة ذكية T90 ماكس 7 في 1",
+  "brand": "T90 Max",
+  "category": "ساعة"
+ },
+ {
+  "file": "i219.jpg",
+  "name": "باور بانك فيكين 20000",
+  "brand": "V.KEEN",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i220.jpg",
+  "name": "سماعة KM تايب سي",
+  "brand": "KM",
+  "category": "سماعة"
+ },
+ {
+  "file": "i221.jpg",
+  "name": "كيبل فيكين ثلاثي 3A",
+  "brand": "V.KEEN",
+  "category": "كيبل"
+ },
+ {
+  "file": "i222.jpg",
+  "name": "موبايل تكنو كامون 50 پرو",
+  "brand": "Tecno",
+  "category": "موبايل"
+ },
+ {
+  "file": "i223.jpg",
+  "name": "شاحن بلكن 25 واط",
+  "brand": "Belkin",
+  "category": "شاحن"
+ },
+ {
+  "file": "i224.jpg",
+  "name": "زجاج حماية مضاد للكهرباء الساكنة",
+  "brand": "Super Glass",
+  "category": "حماية"
+ },
+ {
+  "file": "i225.jpg",
+  "name": "سماعة لاسلكية ميتال كليب أون",
+  "brand": "Pekomi",
+  "category": "سماعة"
+ },
+ {
+  "file": "i226.jpg",
+  "name": "زجاج حماية أراف",
+  "brand": "Araf",
+  "category": "حماية"
+ },
+ {
+  "file": "i227.jpg",
+  "name": "زجاج حماية الأسد",
+  "brand": "Glass",
+  "category": "حماية"
+ },
+ {
+  "file": "i228.jpg",
+  "name": "سماعة رأس أمايا هيفي باس",
+  "brand": "Amaya",
+  "category": "سماعة"
+ },
+ {
+  "file": "i229.jpg",
+  "name": "سماعة رأس أمايا لاسلكية",
+  "brand": "Amaya",
+  "category": "سماعة"
+ },
+ {
+  "file": "i230.jpg",
+  "name": "كيبل آيفون سيليكون",
+  "brand": "Data Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i231.jpg",
+  "name": "سماعة رأس أمايا AEB-H300",
+  "brand": "Amaya",
+  "category": "سماعة"
+ },
+ {
+  "file": "i232.jpg",
+  "name": "كيبل تايب سي 6A",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i233.jpg",
+  "name": "سماعة رقبة أمايا",
+  "brand": "Amaya",
+  "category": "سماعة"
+ },
+ {
+  "file": "i234.jpg",
+  "name": "زجاج حماية مضاد للانعكاس",
+  "brand": "Anti-Reflection",
+  "category": "حماية"
+ },
+ {
+  "file": "i235.jpg",
+  "name": "شاحن نيوستوب 180 واط",
+  "brand": "NewStop",
+  "category": "شاحن"
+ },
+ {
+  "file": "i236.jpg",
+  "name": "كيبل نيوستوب 3 في 1 100 واط",
+  "brand": "NewStop",
+  "category": "كيبل"
+ },
+ {
+  "file": "i237.jpg",
+  "name": "حامل سيارة بزر واحد",
+  "brand": "Suction Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i238.jpg",
+  "name": "باور بانك",
+  "brand": "Power Bank",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i239.jpg",
+  "name": "حماية عدسة الكاميرا أراف",
+  "brand": "Araf",
+  "category": "حماية"
+ },
+ {
+  "file": "i240.jpg",
+  "name": "زجاج حماية برايفسي",
+  "brand": "Privacy Glass",
+  "category": "حماية"
+ },
+ {
+  "file": "i241.jpg",
+  "name": "حامل مغناطيسي للسيارة",
+  "brand": "Magnetic Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i242.jpg",
+  "name": "حماية عدسات",
+  "brand": "Lens Protector",
+  "category": "حماية"
+ },
+ {
+  "file": "i243.jpg",
+  "name": "توصيلة تايب سي إلى 3.5",
+  "brand": "Adapter",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i244.jpg",
+  "name": "شاحن كيري 60 واط",
+  "brand": "Kiri",
+  "category": "شاحن"
+ },
+ {
+  "file": "i245.jpg",
+  "name": "سماعة XO لاسلكية",
+  "brand": "XO",
+  "category": "سماعة"
+ },
+ {
+  "file": "i246.jpg",
+  "name": "سماعة XO كليب أون",
+  "brand": "XO",
+  "category": "سماعة"
+ },
+ {
+  "file": "i247.jpg",
+  "name": "ساعة ذكية XO سپورت",
+  "brand": "XO",
+  "category": "ساعة"
+ },
+ {
+  "file": "i248.jpg",
+  "name": "ساعة ذكية XO دائرية",
+  "brand": "XO",
+  "category": "ساعة"
+ },
+ {
+  "file": "i249.jpg",
+  "name": "حماية عدسات شيلد لنز",
+  "brand": "Shield Lens",
+  "category": "حماية"
+ },
+ {
+  "file": "i250.jpg",
+  "name": "سماعة رأس ألعاب يينسان",
+  "brand": "Yinsan",
+  "category": "سماعة"
+ },
+ {
+  "file": "i251.jpg",
+  "name": "سماعة رأس ديسكو بإضاءة",
+  "brand": "Disco",
+  "category": "سماعة"
+ },
+ {
+  "file": "i252.jpg",
+  "name": "سماعة ألعاب فونيكس H-7",
+  "brand": "Phonikis",
+  "category": "سماعة"
+ },
+ {
+  "file": "i253.jpg",
+  "name": "سماعة رأس بيور ميوزك",
+  "brand": "Pure Music",
+  "category": "سماعة"
+ },
+ {
+  "file": "i254.jpg",
+  "name": "موبايل نوكيا 106",
+  "brand": "Fsudz",
+  "category": "موبايل"
+ },
+ {
+  "file": "i255.jpg",
+  "name": "موبايل نوكيا 105",
+  "brand": "Fsudz",
+  "category": "موبايل"
+ },
+ {
+  "file": "i256.jpg",
+  "name": "شاحن أورايمو",
+  "brand": "Oraimo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i257.jpg",
+  "name": "شاحن بلكن 45 واط",
+  "brand": "Belkin",
+  "category": "شاحن"
+ },
+ {
+  "file": "i258.jpg",
+  "name": "شاحن أنكر 20 واط ويا كيبل",
+  "brand": "Anker",
+  "category": "شاحن"
+ },
+ {
+  "file": "i259.jpg",
+  "name": "شاحن أورنج QC 20 واط",
+  "brand": "Orange",
+  "category": "شاحن"
+ },
+ {
+  "file": "i260.jpg",
+  "name": "شاحن Fsudz 67 واط",
+  "brand": "Fsudz",
+  "category": "شاحن"
+ },
+ {
+  "file": "i261.jpg",
+  "name": "شاحن Fsudz 120 واط",
+  "brand": "Fsudz",
+  "category": "شاحن"
+ },
+ {
+  "file": "i262.jpg",
+  "name": "زجاج حماية شاومي پاد 6",
+  "brand": "Cobra",
+  "category": "حماية"
+ },
+ {
+  "file": "i263.jpg",
+  "name": "زجاج حماية آيروفل HD",
+  "brand": "iRoFal",
+  "category": "حماية"
+ },
+ {
+  "file": "i264.jpg",
+  "name": "باور بانك ديما 10000",
+  "brand": "DEMA",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i265.jpg",
+  "name": "زجاج حماية تابلت XS پريميوم",
+  "brand": "Umipha",
+  "category": "حماية"
+ },
+ {
+  "file": "i266.jpg",
+  "name": "حامل رباعي ZX-1688",
+  "brand": "ZX",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i267.jpg",
+  "name": "باور بانك كيري 20000",
+  "brand": "Kiri",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i268.jpg",
+  "name": "باور بانك كيري 10000",
+  "brand": "Kiri",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i269.jpg",
+  "name": "زجاج حماية فل",
+  "brand": "ACE",
+  "category": "حماية"
+ },
+ {
+  "file": "i270.jpg",
+  "name": "شاحن تيربو زوم 67 واط",
+  "brand": "Turbo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i271.jpg",
+  "name": "شاحن ريلمي 120 واط",
+  "brand": "Realme",
+  "category": "شاحن"
+ },
+ {
+  "file": "i272.jpg",
+  "name": "سماعة أورنج سلكية",
+  "brand": "Orange",
+  "category": "سماعة"
+ },
+ {
+  "file": "i273.jpg",
+  "name": "سماعة أورنج أثليتيك كليب أون",
+  "brand": "Orange",
+  "category": "سماعة"
+ },
+ {
+  "file": "i274.jpg",
+  "name": "موبايل نوكيا 105",
+  "brand": "Nokia",
+  "category": "موبايل"
+ },
+ {
+  "file": "i275.jpg",
+  "name": "موبايل نوكيا 110 4G",
+  "brand": "Nokia",
+  "category": "موبايل"
+ },
+ {
+  "file": "i276.jpg",
+  "name": "كيبل آبل تايب سي لايتننگ",
+  "brand": "Apple",
+  "category": "كيبل"
+ },
+ {
+  "file": "i277.jpg",
+  "name": "شاحن سيارة 120 واط بكيبل سحاب",
+  "brand": "Retractable",
+  "category": "شاحن"
+ },
+ {
+  "file": "i278.jpg",
+  "name": "حماية عدسات ميتال",
+  "brand": "Lens Shield",
+  "category": "حماية"
+ },
+ {
+  "file": "i279.jpg",
+  "name": "زجاج حماية ماكسوس سوبر گلاس",
+  "brand": "Maxus",
+  "category": "حماية"
+ },
+ {
+  "file": "i280.jpg",
+  "name": "باور بانك أنكر سليم",
+  "brand": "Anker",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i281.jpg",
+  "name": "باور بانك أنكر",
+  "brand": "Anker",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i282.jpg",
+  "name": "شاحن هافيت",
+  "brand": "Havit",
+  "category": "شاحن"
+ },
+ {
+  "file": "i283.jpg",
+  "name": "كيبل 3 في 1",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i284.jpg",
+  "name": "شاحن ريبوس CASA",
+  "brand": "Recci",
+  "category": "شاحن"
+ },
+ {
+  "file": "i285.jpg",
+  "name": "حامل مكتبي جماري",
+  "brand": "Jmary",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i286.jpg",
+  "name": "بطارية نوكيا جوكر",
+  "brand": "Joker",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i287.jpg",
+  "name": "شاحن سيارة 4 في 1",
+  "brand": "Car Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i288.jpg",
+  "name": "كيبل كالكسي",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i289.jpg",
+  "name": "سماعة كيس أوكس",
+  "brand": "Earphones",
+  "category": "سماعة"
+ },
+ {
+  "file": "i290.jpg",
+  "name": "كيبل كيري",
+  "brand": "Kiri",
+  "category": "كيبل"
+ },
+ {
+  "file": "i291.jpg",
+  "name": "زجاج حماية كنگ كونگ 360",
+  "brand": "KingKong",
+  "category": "حماية"
+ },
+ {
+  "file": "i292.jpg",
+  "name": "سماعة أورنج سلكية آيفون",
+  "brand": "Orange",
+  "category": "سماعة"
+ },
+ {
+  "file": "i293.jpg",
+  "name": "شاحن شاومي 120 واط",
+  "brand": "Xiaomi",
+  "category": "شاحن"
+ },
+ {
+  "file": "i294.jpg",
+  "name": "شاحن ماكسوس 67 واط",
+  "brand": "Maxus",
+  "category": "شاحن"
+ },
+ {
+  "file": "i295.jpg",
+  "name": "شاحن مزدوج 2USB",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i296.jpg",
+  "name": "زجاج حماية برايفسي ضد التجسس",
+  "brand": "Privacy",
+  "category": "حماية"
+ },
+ {
+  "file": "i297.jpg",
+  "name": "سماعة كنسا سلكية",
+  "brand": "Kensa",
+  "category": "سماعة"
+ },
+ {
+  "file": "i298.jpg",
+  "name": "كيبل AUX أوريس",
+  "brand": "Auris",
+  "category": "كيبل"
+ },
+ {
+  "file": "i299.jpg",
+  "name": "سماعة E65",
+  "brand": "E65",
+  "category": "سماعة"
+ },
+ {
+  "file": "i300.jpg",
+  "name": "سماعة AKG محيطي N29",
+  "brand": "AKG",
+  "category": "سماعة"
+ },
+ {
+  "file": "i301.jpg",
+  "name": "كيبل لينيس",
+  "brand": "Lenyes",
+  "category": "كيبل"
+ },
+ {
+  "file": "i302.jpg",
+  "name": "سماعة ألعاب گولد فلاش",
+  "brand": "GoldFlash",
+  "category": "سماعة"
+ },
+ {
+  "file": "i303.jpg",
+  "name": "سماعة رقبة بلوتوث WG-07",
+  "brand": "WG",
+  "category": "سماعة"
+ },
+ {
+  "file": "i304.jpg",
+  "name": "ستاند سيارة",
+  "brand": "Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i305.jpg",
+  "name": "كيبل تايب سي ويا ستاند",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i306.jpg",
+  "name": "ستاند مغناطيسي K007",
+  "brand": "Magnetic Bracket",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i307.jpg",
+  "name": "شاحن 120 واط أصفر",
+  "brand": "Original",
+  "category": "شاحن"
+ },
+ {
+  "file": "i308.jpg",
+  "name": "شاحن 45 واط PD+QC3.0",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i309.jpg",
+  "name": "شاحن 120 واط سريع",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i310.jpg",
+  "name": "شاحن تايب سي 45 واط",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i311.jpg",
+  "name": "سماعة ساوندكور K20i",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i312.jpg",
+  "name": "موبايل نوبيا نيو 3",
+  "brand": "Nubia",
+  "category": "موبايل"
+ },
+ {
+  "file": "i313.jpg",
+  "name": "شاحن أنكر",
+  "brand": "Anker",
+  "category": "شاحن"
+ },
+ {
+  "file": "i314.jpg",
+  "name": "سماعة رقبة ميوزك",
+  "brand": "Music",
+  "category": "سماعة"
+ },
+ {
+  "file": "i315.jpg",
+  "name": "ستاند موبايل متعدد الوظائف",
+  "brand": "Stand",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i316.jpg",
+  "name": "باور بانك 40000 بإضاءة",
+  "brand": "Power Bank",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i317.jpg",
+  "name": "شاحن سامسونج 25 واط PD",
+  "brand": "Samsung",
+  "category": "شاحن"
+ },
+ {
+  "file": "i318.jpg",
+  "name": "سماعة رقبة AI فويس",
+  "brand": "AI Voice",
+  "category": "سماعة"
+ },
+ {
+  "file": "i319.jpg",
+  "name": "سماعة لاسلكية B23",
+  "brand": "B23",
+  "category": "سماعة"
+ },
+ {
+  "file": "i320.jpg",
+  "name": "كيبل شحن 100 واط",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i321.jpg",
+  "name": "شاحن سيارة 4 في 1 120 واط",
+  "brand": "Super Fast Charge",
+  "category": "شاحن"
+ },
+ {
+  "file": "i322.jpg",
+  "name": "سماعة رأس ريلمي",
+  "brand": "Realme",
+  "category": "سماعة"
+ },
+ {
+  "file": "i323.jpg",
+  "name": "كيبل ضوئي 3 في 1",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i324.jpg",
+  "name": "سماعة لاسلكية تايب سي",
+  "brand": "Wireless Earbuds",
+  "category": "سماعة"
+ },
+ {
+  "file": "i325.jpg",
+  "name": "كيبل شحن 9A",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i326.jpg",
+  "name": "ساعة ذكية واچ 10",
+  "brand": "Watch 10",
+  "category": "ساعة"
+ },
+ {
+  "file": "i327.jpg",
+  "name": "سماعة رأس أورايمو باس",
+  "brand": "Oraimo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i328.jpg",
+  "name": "سماعة سامسونج لاسلكية",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i329.jpg",
+  "name": "كيبل SZX تايب سي 3 متر",
+  "brand": "SZX",
+  "category": "كيبل"
+ },
+ {
+  "file": "i330.jpg",
+  "name": "سماعة ستيريو ميوزك",
+  "brand": "Stereo Music",
+  "category": "سماعة"
+ },
+ {
+  "file": "i331.jpg",
+  "name": "سماعة رأس JBL سوبر باس",
+  "brand": "JBL",
+  "category": "سماعة"
+ },
+ {
+  "file": "i332.jpg",
+  "name": "سماعة ستيريو سلكية",
+  "brand": "Stereo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i333.jpg",
+  "name": "سماعة JBL لاسلكية",
+  "brand": "JBL",
+  "category": "سماعة"
+ },
+ {
+  "file": "i334.jpg",
+  "name": "سماعة AKG تايب سي",
+  "brand": "AKG",
+  "category": "سماعة"
+ },
+ {
+  "file": "i335.jpg",
+  "name": "سبيكر بلوتوث مستطيل",
+  "brand": "Speaker",
+  "category": "سماعة"
+ },
+ {
+  "file": "i336.jpg",
+  "name": "سماعة إيربود سلكية لايتننگ",
+  "brand": "Apple",
+  "category": "سماعة"
+ },
+ {
+  "file": "i337.jpg",
+  "name": "باور بانك موكسوم 40000",
+  "brand": "Moxom",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i338.jpg",
+  "name": "باور بانك موكسوم 50000",
+  "brand": "Moxom",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i339.jpg",
+  "name": "كيبل موكسوم 3A",
+  "brand": "Moxom",
+  "category": "كيبل"
+ },
+ {
+  "file": "i340.jpg",
+  "name": "باور بانك موكسوم 30000",
+  "brand": "Moxom",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i341.jpg",
+  "name": "كيبل موكسوم 36 واط",
+  "brand": "Moxom",
+  "category": "كيبل"
+ },
+ {
+  "file": "i342.jpg",
+  "name": "باور بانك موكسوم 20000",
+  "brand": "Moxom",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i343.jpg",
+  "name": "باور بانك 10000",
+  "brand": "Power Bank",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i344.jpg",
+  "name": "شاحن أورنج 70 واط GaN",
+  "brand": "Orange",
+  "category": "شاحن"
+ },
+ {
+  "file": "i345.jpg",
+  "name": "شاحن كيري تايب سي",
+  "brand": "Kiri",
+  "category": "شاحن"
+ },
+ {
+  "file": "i346.jpg",
+  "name": "كيبل تايب سي إلى HDMI",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i347.jpg",
+  "name": "زجاج حماية بلاك ميرور 9H",
+  "brand": "BlackMirror",
+  "category": "حماية"
+ },
+ {
+  "file": "i348.jpg",
+  "name": "كيبل هافيت سيليكون",
+  "brand": "Havit",
+  "category": "كيبل"
+ },
+ {
+  "file": "i349.jpg",
+  "name": "باور بانك مكدودو",
+  "brand": "Mcdodo",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i350.jpg",
+  "name": "سماعة بلكن ساوندفورم",
+  "brand": "Belkin",
+  "category": "سماعة"
+ },
+ {
+  "file": "i351.jpg",
+  "name": "شاحن موماكس",
+  "brand": "Momax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i352.jpg",
+  "name": "كيبل فاشن ضوئي",
+  "brand": "NewStop",
+  "category": "كيبل"
+ },
+ {
+  "file": "i353.jpg",
+  "name": "باور بانك طاقة شمسية 20000",
+  "brand": "Power Bank",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i354.jpg",
+  "name": "سماعة Q27 پرو",
+  "brand": "Q27",
+  "category": "سماعة"
+ },
+ {
+  "file": "i355.jpg",
+  "name": "باور بانك توپوماكس 60000",
+  "brand": "Topomax",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i356.jpg",
+  "name": "باور بانك توپوماكس 40000",
+  "brand": "Topomax",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i357.jpg",
+  "name": "OTG تايب سي",
+  "brand": "OTG",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i358.jpg",
+  "name": "OTG آيفون",
+  "brand": "OTG",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i359.jpg",
+  "name": "كيبل أنكر تايب سي 60 واط",
+  "brand": "Anker",
+  "category": "كيبل"
+ },
+ {
+  "file": "i360.jpg",
+  "name": "شاحن مكدودو 30 واط",
+  "brand": "Mcdodo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i361.jpg",
+  "name": "باور بانك توپوماكس 20000",
+  "brand": "Topomax",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i362.jpg",
+  "name": "باور بانك توپوماكس 65 واط",
+  "brand": "Topomax",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i363.jpg",
+  "name": "سماعة J2 بشاشة",
+  "brand": "J2",
+  "category": "سماعة"
+ },
+ {
+  "file": "i364.jpg",
+  "name": "سماعة آبل مباشر 2 في 1",
+  "brand": "Apple",
+  "category": "سماعة"
+ },
+ {
+  "file": "i365.jpg",
+  "name": "شاحن تيربو زوم K-P-52",
+  "brand": "Turbo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i366.jpg",
+  "name": "شاحن ريلمي 150 واط",
+  "brand": "Realme",
+  "category": "شاحن"
+ },
+ {
+  "file": "i367.jpg",
+  "name": "شاحن فاست جارجنگ أخضر",
+  "brand": "Fast Charging",
+  "category": "شاحن"
+ },
+ {
+  "file": "i368.jpg",
+  "name": "شاحن 2USB",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i369.jpg",
+  "name": "شاحن PD سوبر أدابتر",
+  "brand": "PD Super Adapter",
+  "category": "شاحن"
+ },
+ {
+  "file": "i370.jpg",
+  "name": "شاحن مع كيبل",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i371.jpg",
+  "name": "شاحن زوم 120 واط",
+  "brand": "Zoom",
+  "category": "شاحن"
+ },
+ {
+  "file": "i372.jpg",
+  "name": "كيبل فين دنس تايب سي إلى آيفون",
+  "brand": "Ven-Dens",
+  "category": "كيبل"
+ },
+ {
+  "file": "i373.jpg",
+  "name": "ستاند فين دنس 360 درجة",
+  "brand": "Ven-Dens",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i374.jpg",
+  "name": "شاحن سيارة سمارت",
+  "brand": "Smart Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i375.jpg",
+  "name": "شاحن أرستي",
+  "brand": "Aristy",
+  "category": "شاحن"
+ },
+ {
+  "file": "i376.jpg",
+  "name": "سماعة سامسونج USB-C AKG",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i377.jpg",
+  "name": "سماعة سلكية وايرد",
+  "brand": "Wired Earphone",
+  "category": "سماعة"
+ },
+ {
+  "file": "i378.jpg",
+  "name": "سماعة لاسلكية M19",
+  "brand": "M19",
+  "category": "سماعة"
+ },
+ {
+  "file": "i379.jpg",
+  "name": "زجاج حماية تمبرد گلاس",
+  "brand": "Tempered Glass",
+  "category": "حماية"
+ },
+ {
+  "file": "i380.jpg",
+  "name": "زجاج حماية أونر X9b ماكس",
+  "brand": "Tempered Glass",
+  "category": "حماية"
+ },
+ {
+  "file": "i381.jpg",
+  "name": "سماعة أورنج ستيريو",
+  "brand": "Orange",
+  "category": "سماعة"
+ },
+ {
+  "file": "i382.jpg",
+  "name": "شاحن سيارة دبل USB",
+  "brand": "Car Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i383.jpg",
+  "name": "حامل سيارة",
+  "brand": "Car Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i384.jpg",
+  "name": "حامل مغناطيسي للسيارة",
+  "brand": "Magnetic Car Mount",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i385.jpg",
+  "name": "سماعة بلوتوث لاسلكية",
+  "brand": "Wireless Headset",
+  "category": "سماعة"
+ },
+ {
+  "file": "i386.jpg",
+  "name": "سير ساعة كاربون",
+  "brand": "YTF-Carbon",
+  "category": "ساعة"
+ },
+ {
+  "file": "i387.jpg",
+  "name": "سماعة سلكية آيفون",
+  "brand": "Earphones",
+  "category": "سماعة"
+ },
+ {
+  "file": "i388.jpg",
+  "name": "باور بانك أورنج 10000",
+  "brand": "Orange",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i389.jpg",
+  "name": "باور بانك أورنج 20000",
+  "brand": "Orange",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i390.jpg",
+  "name": "باور بانك أورنج 30000",
+  "brand": "Orange",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i391.jpg",
+  "name": "كيبورد وماوس بلوتوث",
+  "brand": "Mouse & Keyboard",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i392.jpg",
+  "name": "كيبورد وماوس گيمنگ",
+  "brand": "Keyboard",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i393.jpg",
+  "name": "كيبورد وماوس وسماعة 4 في 1",
+  "brand": "T-Wolf",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i394.jpg",
+  "name": "سماعة ألعاب G5000",
+  "brand": "Gaming Headset",
+  "category": "سماعة"
+ },
+ {
+  "file": "i395.jpg",
+  "name": "OTG USB",
+  "brand": "OTG",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i396.jpg",
+  "name": "تابلت سامسونج گالكسي تاب",
+  "brand": "Samsung",
+  "category": "تابلت"
+ },
+ {
+  "file": "i397.jpg",
+  "name": "كيبل آبل تايب سي 60 واط",
+  "brand": "Apple",
+  "category": "كيبل"
+ },
+ {
+  "file": "i398.jpg",
+  "name": "حماية عدسات أراف",
+  "brand": "Araf",
+  "category": "حماية"
+ },
+ {
+  "file": "i399.jpg",
+  "name": "سماعة كريسپ تايب سي",
+  "brand": "Crisp",
+  "category": "سماعة"
+ },
+ {
+  "file": "i400.jpg",
+  "name": "شاحن أنكر 323 ويا كيبل لايتننگ",
+  "brand": "Anker",
+  "category": "شاحن"
+ },
+ {
+  "file": "i401.jpg",
+  "name": "شاحن بلكن بوست جارج",
+  "brand": "Belkin",
+  "category": "شاحن"
+ },
+ {
+  "file": "i402.jpg",
+  "name": "كيبل بلكن بوست جارج فلكس",
+  "brand": "Belkin",
+  "category": "كيبل"
+ },
+ {
+  "file": "i403.jpg",
+  "name": "كيبل أنكر 322",
+  "brand": "Anker",
+  "category": "كيبل"
+ },
+ {
+  "file": "i404.jpg",
+  "name": "زجاج حماية گلاس پرو",
+  "brand": "GlassPro",
+  "category": "حماية"
+ },
+ {
+  "file": "i405.jpg",
+  "name": "حامل مكتبي جماري MK-59",
+  "brand": "Jmary",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i406.jpg",
+  "name": "حامل سيارة مغناطيسي جماري MH-70",
+  "brand": "Jmary",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i407.jpg",
+  "name": "حامل رقبة جماري 2 في 1",
+  "brand": "Jmary",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i408.jpg",
+  "name": "حامل مكتبي جماري MK-61",
+  "brand": "Jmary",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i409.jpg",
+  "name": "حامل سيارة مغناطيسي جماري MH-78",
+  "brand": "Jmary",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i410.jpg",
+  "name": "زجاج حماية أورنج UV هايبرد",
+  "brand": "Orange",
+  "category": "حماية"
+ },
+ {
+  "file": "i411.jpg",
+  "name": "حامل سيارة شاحن لاسلكي أمايا",
+  "brand": "Amaya",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i412.jpg",
+  "name": "حامل معدني أمايا",
+  "brand": "Amaya",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i413.jpg",
+  "name": "حامل سيارة مغناطيسي أمايا",
+  "brand": "Amaya",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i414.jpg",
+  "name": "حامل مغناطيسي بالشفط أمايا",
+  "brand": "Amaya",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i415.jpg",
+  "name": "ستاند لابتوب أمايا",
+  "brand": "Amaya",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i416.jpg",
+  "name": "شاحن آيفون 35 واط أصلي",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i417.jpg",
+  "name": "شاحن سوبر تيربو 33 واط",
+  "brand": "Super-Turbo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i418.jpg",
+  "name": "شاحن سوبر تيربو 45 واط",
+  "brand": "Super-Turbo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i419.jpg",
+  "name": "كيبل WUW 100 واط X198",
+  "brand": "WUW",
+  "category": "كيبل"
+ },
+ {
+  "file": "i420.jpg",
+  "name": "حماية عدسات الكاميرا",
+  "brand": "Camera Lens Protector",
+  "category": "حماية"
+ },
+ {
+  "file": "i421.jpg",
+  "name": "سماعة هانمار تايب سي",
+  "brand": "Hanmar",
+  "category": "سماعة"
+ },
+ {
+  "file": "i422.jpg",
+  "name": "كيبل آبل 100 واط",
+  "brand": "Apple",
+  "category": "كيبل"
+ },
+ {
+  "file": "i423.jpg",
+  "name": "سماعة سامسونج سلكية",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i424.jpg",
+  "name": "سماعة گيرلاكس GE-14",
+  "brand": "Gerlax",
+  "category": "سماعة"
+ },
+ {
+  "file": "i425.jpg",
+  "name": "كيبل گيرلاكس D3L",
+  "brand": "Gerlax",
+  "category": "كيبل"
+ },
+ {
+  "file": "i426.jpg",
+  "name": "كيبل گيرلاكس 3 في 1",
+  "brand": "Gerlax",
+  "category": "كيبل"
+ },
+ {
+  "file": "i427.jpg",
+  "name": "كيبل AUX گيرلاكس",
+  "brand": "Gerlax",
+  "category": "كيبل"
+ },
+ {
+  "file": "i428.jpg",
+  "name": "شاحن ماكسوس 3.1A",
+  "brand": "Maxus",
+  "category": "شاحن"
+ },
+ {
+  "file": "i429.jpg",
+  "name": "كيبل آيفون إلى AUX",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i430.jpg",
+  "name": "مايك أورنج ميني لاسلكي",
+  "brand": "Orange",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i431.jpg",
+  "name": "قارئ بطاقات تايب سي/USB/لايتننگ",
+  "brand": "Card Reader",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i432.jpg",
+  "name": "كيبل آيفون كتان 27 واط هوكو",
+  "brand": "Hoco",
+  "category": "كيبل"
+ },
+ {
+  "file": "i433.jpg",
+  "name": "كيبل تايب سي كتان 60 واط هوكو",
+  "brand": "Hoco",
+  "category": "كيبل"
+ },
+ {
+  "file": "i434.jpg",
+  "name": "كيبل أوكس تايب سي",
+  "brand": "AUX",
+  "category": "كيبل"
+ },
+ {
+  "file": "i435.jpg",
+  "name": "سماعة تايب سي 17 پرو ماكس",
+  "brand": "Earphones",
+  "category": "سماعة"
+ },
+ {
+  "file": "i436.jpg",
+  "name": "ترايپود نيوفو NP-610",
+  "brand": "NeePho",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i437.jpg",
+  "name": "شاحن سولوفر TC54",
+  "brand": "Soloffer",
+  "category": "شاحن"
+ },
+ {
+  "file": "i438.jpg",
+  "name": "مايك كاكوسيگا لاڤلير",
+  "brand": "Kakusiga",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i439.jpg",
+  "name": "سبيكر بإضاءة",
+  "brand": "Speaker",
+  "category": "سماعة"
+ },
+ {
+  "file": "i440.jpg",
+  "name": "جنطة آيباد إيفو كريستال",
+  "brand": "Evo Crystal",
+  "category": "تابلت"
+ },
+ {
+  "file": "i441.jpg",
+  "name": "جنطة هونر پاد 10",
+  "brand": "Honor",
+  "category": "تابلت"
+ },
+ {
+  "file": "i442.jpg",
+  "name": "لاصق منحني قاعدة",
+  "brand": "Curved",
+  "category": "حماية"
+ },
+ {
+  "file": "i443.jpg",
+  "name": "كيبل تايب سي 60 واط",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i444.jpg",
+  "name": "شاحن گيرلاكس 20 واط",
+  "brand": "Gerlax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i445.jpg",
+  "name": "سماعة دوش أصلي",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i446.jpg",
+  "name": "شاحن أورنج 71 واط GaN",
+  "brand": "Orange",
+  "category": "شاحن"
+ },
+ {
+  "file": "i447.jpg",
+  "name": "كيبل أورنج 2 في 2",
+  "brand": "Orange",
+  "category": "كيبل"
+ },
+ {
+  "file": "i448.jpg",
+  "name": "كيبل أورنج 45 واط",
+  "brand": "Orange",
+  "category": "كيبل"
+ },
+ {
+  "file": "i449.jpg",
+  "name": "بطارية نوكيا 105 L5K",
+  "brand": "Nokia",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i450.jpg",
+  "name": "شاحن زيوار 120 واط",
+  "brand": "SIWAR",
+  "category": "شاحن"
+ },
+ {
+  "file": "i451.jpg",
+  "name": "ستاند مكتبي L3T",
+  "brand": "L3T",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i452.jpg",
+  "name": "حامل مكتبي L3T",
+  "brand": "L3T",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i453.jpg",
+  "name": "باور بانك أنكر ويا كيبل",
+  "brand": "Anker",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i454.jpg",
+  "name": "يد تحكم دوال شوك 2",
+  "brand": "PlayStation",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i455.jpg",
+  "name": "يد تحكم PS3 دوال شوك 3",
+  "brand": "PlayStation",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i456.jpg",
+  "name": "موبايل إنفنكس هوت 50 پرو+",
+  "brand": "Infinix",
+  "category": "موبايل"
+ },
+ {
+  "file": "i457.jpg",
+  "name": "شاحن أنكر 20 واط",
+  "brand": "Anker",
+  "category": "شاحن"
+ },
+ {
+  "file": "i458.jpg",
+  "name": "كيبل زيوار USB-A إلى لايتننگ",
+  "brand": "SIWAR",
+  "category": "كيبل"
+ },
+ {
+  "file": "i459.jpg",
+  "name": "شاحن سيارة زيوار 120 واط",
+  "brand": "SIWAR",
+  "category": "شاحن"
+ },
+ {
+  "file": "i460.jpg",
+  "name": "شاحن سيارة زيوار",
+  "brand": "SIWAR",
+  "category": "شاحن"
+ },
+ {
+  "file": "i461.jpg",
+  "name": "حماية عدسات آيفون 17 پرو ماكس",
+  "brand": "Araf",
+  "category": "حماية"
+ },
+ {
+  "file": "i462.jpg",
+  "name": "كيبل سامسونج تايب سي أصلي",
+  "brand": "Samsung",
+  "category": "كيبل"
+ },
+ {
+  "file": "i463.jpg",
+  "name": "فلاش 16 گيگا 2 في 1",
+  "brand": "Hoco",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i464.jpg",
+  "name": "فلاش 32 گيگا 2 في 1",
+  "brand": "Hoco",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i465.jpg",
+  "name": "سماعة هوكو ANC ترجمة",
+  "brand": "Hoco",
+  "category": "سماعة"
+ },
+ {
+  "file": "i466.jpg",
+  "name": "باور بانك أنكر 10000 45 واط",
+  "brand": "Anker",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i467.jpg",
+  "name": "حماية عدسات بلفيس",
+  "brand": "Bilvis",
+  "category": "حماية"
+ },
+ {
+  "file": "i468.jpg",
+  "name": "مبرد تابلت ميمو",
+  "brand": "Memo",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i469.jpg",
+  "name": "زجاج حماية ماكسوس مات برايفسي",
+  "brand": "Maxus",
+  "category": "حماية"
+ },
+ {
+  "file": "i470.jpg",
+  "name": "شاحن سيارة FM هاندز فري",
+  "brand": "Marvers",
+  "category": "شاحن"
+ },
+ {
+  "file": "i471.jpg",
+  "name": "شاحن سيارة FM ذكي",
+  "brand": "Marvers",
+  "category": "شاحن"
+ },
+ {
+  "file": "i472.jpg",
+  "name": "شاحن سيارة FM لاسلكي",
+  "brand": "Marvers",
+  "category": "شاحن"
+ },
+ {
+  "file": "i473.jpg",
+  "name": "تابلت أطفال 10.1 إنچ",
+  "brand": "Kids Tablet",
+  "category": "تابلت"
+ },
+ {
+  "file": "i474.jpg",
+  "name": "تابلت أطفال",
+  "brand": "Kids Tablet",
+  "category": "تابلت"
+ },
+ {
+  "file": "i475.jpg",
+  "name": "حماية 5 في 1 فاشن",
+  "brand": "Fashion",
+  "category": "حماية"
+ },
+ {
+  "file": "i476.jpg",
+  "name": "بطارية ليثيوم",
+  "brand": "Li-ion Battery",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i477.jpg",
+  "name": "ماوس واير",
+  "brand": "Mouse",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i478.jpg",
+  "name": "ساعة ذكية S2000 ويا سيور",
+  "brand": "S2000",
+  "category": "ساعة"
+ },
+ {
+  "file": "i479.jpg",
+  "name": "شاحن نيوستوب 25 واط سوبر",
+  "brand": "NewStop",
+  "category": "شاحن"
+ },
+ {
+  "file": "i480.jpg",
+  "name": "شاحن سولوفر 67 واط",
+  "brand": "Soloffer",
+  "category": "شاحن"
+ },
+ {
+  "file": "i481.jpg",
+  "name": "سماعة ساوندكور M8 U38",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i482.jpg",
+  "name": "شاحن نيوستوب 240 واط",
+  "brand": "NewStop",
+  "category": "شاحن"
+ },
+ {
+  "file": "i483.jpg",
+  "name": "تابلت دولفين ZB32A",
+  "brand": "Dolphin",
+  "category": "تابلت"
+ },
+ {
+  "file": "i484.jpg",
+  "name": "تابلت 10 إنچ",
+  "brand": "Tablet",
+  "category": "تابلت"
+ },
+ {
+  "file": "i485.jpg",
+  "name": "شاحن ترانيو 30 واط",
+  "brand": "Tranyoo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i486.jpg",
+  "name": "شاحن ترانيو 20 واط",
+  "brand": "Tranyoo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i487.jpg",
+  "name": "شاحن ترانيو 65 واط",
+  "brand": "Tranyoo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i488.jpg",
+  "name": "شاحن ترانيو 120 واط",
+  "brand": "Tranyoo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i489.jpg",
+  "name": "شاحن ترانيو 45 واط",
+  "brand": "Tranyoo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i490.jpg",
+  "name": "شاحن ترانيو 100 واط",
+  "brand": "Tranyoo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i491.jpg",
+  "name": "كيبل ترانيو 60 واط",
+  "brand": "Tranyoo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i492.jpg",
+  "name": "سماعة ترانيو 3.5 ملم",
+  "brand": "Tranyoo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i493.jpg",
+  "name": "سماعة ترانيو تايب سي",
+  "brand": "Tranyoo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i494.jpg",
+  "name": "شاحن سيارة ترانيو 30 واط",
+  "brand": "Tranyoo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i495.jpg",
+  "name": "شاحن سيارة ترانيو 60 واط",
+  "brand": "Tranyoo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i496.jpg",
+  "name": "كيبل ترانيو تايب سي إلى ديسبلي بورت 4K",
+  "brand": "Tranyoo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i497.jpg",
+  "name": "حامل موبايل للدراجة ترانيو",
+  "brand": "Tranyoo",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i498.jpg",
+  "name": "حامل مغناطيسي ترانيو",
+  "brand": "Tranyoo",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i499.jpg",
+  "name": "حامل سيارة ترانيو",
+  "brand": "Tranyoo",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i500.jpg",
+  "name": "حامل موبايل للدراجة النارية ترانيو",
+  "brand": "Tranyoo",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i501.jpg",
+  "name": "شاحن سيارة ترانيو 30 واط ويا كيبل",
+  "brand": "Tranyoo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i502.jpg",
+  "name": "كيبل ترانيو HDMI 8K",
+  "brand": "Tranyoo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i503.jpg",
+  "name": "كيبل صوت ترانيو تايب سي إلى 3.5",
+  "brand": "Tranyoo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i504.jpg",
+  "name": "فلاش سانديسك",
+  "brand": "SanDisk",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i505.jpg",
+  "name": "كيبل DVIP 120 واط",
+  "brand": "DVIP",
+  "category": "كيبل"
+ },
+ {
+  "file": "i506.jpg",
+  "name": "سماعة رأس أنكر ساوندكور",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i507.jpg",
+  "name": "شاحن آبل 20 واط USB-C",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i508.jpg",
+  "name": "كيبل آبل تايب سي إلى لايتننگ",
+  "brand": "Apple",
+  "category": "كيبل"
+ },
+ {
+  "file": "i509.jpg",
+  "name": "شاحن زيرو زد USB+PD",
+  "brand": "Zero-Z",
+  "category": "شاحن"
+ },
+ {
+  "file": "i510.jpg",
+  "name": "كيبل آبل تايب سي",
+  "brand": "Apple",
+  "category": "كيبل"
+ },
+ {
+  "file": "i511.jpg",
+  "name": "سماعة ستيريو زيرو زد",
+  "brand": "Zero-Z",
+  "category": "سماعة"
+ },
+ {
+  "file": "i512.jpg",
+  "name": "شاحن وكيبل آبل",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i513.jpg",
+  "name": "زجاج حماية ESD مضاد للكهرباء الساكنة",
+  "brand": "Zero-Z",
+  "category": "حماية"
+ },
+ {
+  "file": "i514.jpg",
+  "name": "كيبل آبل 240 واط",
+  "brand": "Apple",
+  "category": "كيبل"
+ },
+ {
+  "file": "i515.jpg",
+  "name": "كيبل كتان آيفون USB",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i516.jpg",
+  "name": "كيبل كتان آيفون 35 واط",
+  "brand": "Pekomi",
+  "category": "كيبل"
+ },
+ {
+  "file": "i517.jpg",
+  "name": "كيبل كتان تايب سي 65 واط",
+  "brand": "Pekomi",
+  "category": "كيبل"
+ },
+ {
+  "file": "i518.jpg",
+  "name": "كيبل كتان تايب سي ضوئي",
+  "brand": "Pekomi",
+  "category": "كيبل"
+ },
+ {
+  "file": "i519.jpg",
+  "name": "شاحن زيوار 45 واط بشاشة",
+  "brand": "SIWAR",
+  "category": "شاحن"
+ },
+ {
+  "file": "i520.jpg",
+  "name": "شاحن زيوار PD 45 واط",
+  "brand": "SIWAR",
+  "category": "شاحن"
+ },
+ {
+  "file": "i521.jpg",
+  "name": "كيبل يوسوندا 66 واط",
+  "brand": "Yosonda",
+  "category": "كيبل"
+ },
+ {
+  "file": "i522.jpg",
+  "name": "شاحن يوسوندا",
+  "brand": "Yosonda",
+  "category": "شاحن"
+ },
+ {
+  "file": "i523.jpg",
+  "name": "سماعة لاسلكية رمادية",
+  "brand": "Earbuds",
+  "category": "سماعة"
+ },
+ {
+  "file": "i524.jpg",
+  "name": "سماعة لاسلكية JBL",
+  "brand": "JBL",
+  "category": "سماعة"
+ },
+ {
+  "file": "i525.jpg",
+  "name": "سماعة لاسلكية K-56",
+  "brand": "Earphone",
+  "category": "سماعة"
+ },
+ {
+  "file": "i526.jpg",
+  "name": "سماعة لاسلكية شفافة",
+  "brand": "Earbuds",
+  "category": "سماعة"
+ },
+ {
+  "file": "i527.jpg",
+  "name": "سماعة مارشال لاسلكية",
+  "brand": "Marshall",
+  "category": "سماعة"
+ },
+ {
+  "file": "i528.jpg",
+  "name": "سماعة سپورت لاسلكية",
+  "brand": "Sports",
+  "category": "سماعة"
+ },
+ {
+  "file": "i529.jpg",
+  "name": "سماعة لاسلكية سوداء",
+  "brand": "Earbuds",
+  "category": "سماعة"
+ },
+ {
+  "file": "i530.jpg",
+  "name": "زجاج حماية أربيل بگ إيدج",
+  "brand": "Arbil",
+  "category": "حماية"
+ },
+ {
+  "file": "i531.jpg",
+  "name": "سماعة فيليبس لاسلكية",
+  "brand": "Philips",
+  "category": "سماعة"
+ },
+ {
+  "file": "i532.jpg",
+  "name": "ماوس واير ضوئي",
+  "brand": "Mouse",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i533.jpg",
+  "name": "شاحن بلكن",
+  "brand": "Belkin",
+  "category": "شاحن"
+ },
+ {
+  "file": "i534.jpg",
+  "name": "ستاند سيارة تبريد",
+  "brand": "Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i535.jpg",
+  "name": "كيبورد وماوس لاسلكي",
+  "brand": "Keyboard Mouse Combo",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i536.jpg",
+  "name": "فلاش توشيبا 128 گيگا",
+  "brand": "Toshiba",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i537.jpg",
+  "name": "سبيكر قنديل متحرك",
+  "brand": "Speaker",
+  "category": "سماعة"
+ },
+ {
+  "file": "i538.jpg",
+  "name": "حماية عدسات زيوار",
+  "brand": "SIWAR",
+  "category": "حماية"
+ },
+ {
+  "file": "i539.jpg",
+  "name": "سماعة إيربودز",
+  "brand": "AirPods",
+  "category": "سماعة"
+ },
+ {
+  "file": "i540.jpg",
+  "name": "كيبل آيفون PD فيري صن",
+  "brand": "Verysun",
+  "category": "كيبل"
+ },
+ {
+  "file": "i541.jpg",
+  "name": "زجاج حماية ماكسوس HD",
+  "brand": "Maxus",
+  "category": "حماية"
+ },
+ {
+  "file": "i542.jpg",
+  "name": "شاحن نيوستوب 35 واط CH-9",
+  "brand": "NewStop",
+  "category": "شاحن"
+ },
+ {
+  "file": "i543.jpg",
+  "name": "سماعة إيربود بشاشة ألوان",
+  "brand": "Earbuds",
+  "category": "سماعة"
+ },
+ {
+  "file": "i544.jpg",
+  "name": "سماعة سلكية خضراء",
+  "brand": "Earphones",
+  "category": "سماعة"
+ },
+ {
+  "file": "i545.jpg",
+  "name": "سماعة ساوندكور S8",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i546.jpg",
+  "name": "شاحن آبل أصلي",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i547.jpg",
+  "name": "سماعة هاماستون لاسلكية",
+  "brand": "Hamaston",
+  "category": "سماعة"
+ },
+ {
+  "file": "i548.jpg",
+  "name": "تابلت هونر پاد X7",
+  "brand": "Honor",
+  "category": "تابلت"
+ },
+ {
+  "file": "i549.jpg",
+  "name": "شاحن مومكس",
+  "brand": "Momax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i550.jpg",
+  "name": "ساعة ريلمي واچ 5",
+  "brand": "Realme",
+  "category": "ساعة"
+ },
+ {
+  "file": "i551.jpg",
+  "name": "سماعة ساوندكور",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i552.jpg",
+  "name": "شاحن سيارة FM زيرو زد",
+  "brand": "Zero-Z",
+  "category": "شاحن"
+ },
+ {
+  "file": "i553.jpg",
+  "name": "شاحن سيارة FM زيرو زد 48 واط",
+  "brand": "Zero-Z",
+  "category": "شاحن"
+ },
+ {
+  "file": "i554.jpg",
+  "name": "شاحن گيرلاكس ذكي 3A",
+  "brand": "Gerlax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i555.jpg",
+  "name": "شاحن هوكو 20 واط",
+  "brand": "Hoco",
+  "category": "شاحن"
+ },
+ {
+  "file": "i556.jpg",
+  "name": "قلم جوكر",
+  "brand": "Joker",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i557.jpg",
+  "name": "كيبل تايب سي",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i558.jpg",
+  "name": "سماعة رأس P9",
+  "brand": "P9",
+  "category": "سماعة"
+ },
+ {
+  "file": "i559.jpg",
+  "name": "سماعة رأس فرو بناتي",
+  "brand": "Plush",
+  "category": "سماعة"
+ },
+ {
+  "file": "i560.jpg",
+  "name": "سماعة رأس بلوتوث BT",
+  "brand": "BT",
+  "category": "سماعة"
+ },
+ {
+  "file": "i561.jpg",
+  "name": "زجاج حماية تابلت",
+  "brand": "Glass",
+  "category": "حماية"
+ },
+ {
+  "file": "i562.jpg",
+  "name": "شاحن ميا 65 واط",
+  "brand": "MEIA",
+  "category": "شاحن"
+ },
+ {
+  "file": "i563.jpg",
+  "name": "زجاج حماية كوبرا أوريجنال",
+  "brand": "Cobra",
+  "category": "حماية"
+ },
+ {
+  "file": "i564.jpg",
+  "name": "سيار OPK 3 منافذ",
+  "brand": "OPK",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i565.jpg",
+  "name": "ستاند جوكر سوايپ",
+  "brand": "Swipe",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i566.jpg",
+  "name": "ساعة كاكوسيگا",
+  "brand": "Kakusiga",
+  "category": "ساعة"
+ },
+ {
+  "file": "i567.jpg",
+  "name": "ساعة سمارت دائرية",
+  "brand": "Smart Watch",
+  "category": "ساعة"
+ },
+ {
+  "file": "i568.jpg",
+  "name": "سماعة أدفانس شفاف",
+  "brand": "Advance",
+  "category": "سماعة"
+ },
+ {
+  "file": "i569.jpg",
+  "name": "شاحن سيارة مكدودو",
+  "brand": "Mcdodo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i570.jpg",
+  "name": "سماعة هايبر إكس كلاود 2",
+  "brand": "HyperX",
+  "category": "سماعة"
+ },
+ {
+  "file": "i571.jpg",
+  "name": "سماعة ريزر بلاك شارك",
+  "brand": "Razer",
+  "category": "سماعة"
+ },
+ {
+  "file": "i572.jpg",
+  "name": "لاصق شاشة كوبرا",
+  "brand": "Cobra",
+  "category": "حماية"
+ },
+ {
+  "file": "i573.jpg",
+  "name": "سماعة نيوست M10",
+  "brand": "Newest",
+  "category": "سماعة"
+ },
+ {
+  "file": "i574.jpg",
+  "name": "شاحن نيوستوب 25 واط CH-10",
+  "brand": "NewStop",
+  "category": "شاحن"
+ },
+ {
+  "file": "i575.jpg",
+  "name": "سماعة سامسونج سلكية تايب سي",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i576.jpg",
+  "name": "سماعة سامسونج AKG",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i577.jpg",
+  "name": "سماعة ستيريو ميوزك سلكية",
+  "brand": "Stereo Music",
+  "category": "سماعة"
+ },
+ {
+  "file": "i578.jpg",
+  "name": "شاحن يوگرين 30 واط",
+  "brand": "Ugreen",
+  "category": "شاحن"
+ },
+ {
+  "file": "i579.jpg",
+  "name": "سماعة بوت لاسلكية",
+  "brand": "Boat",
+  "category": "سماعة"
+ },
+ {
+  "file": "i580.jpg",
+  "name": "سماعة NS-13",
+  "brand": "NS",
+  "category": "سماعة"
+ },
+ {
+  "file": "i581.jpg",
+  "name": "كيبل كاكوسيگا",
+  "brand": "Kakusiga",
+  "category": "كيبل"
+ },
+ {
+  "file": "i582.jpg",
+  "name": "شاحن سيارة سامسونج 25 واط",
+  "brand": "Samsung",
+  "category": "شاحن"
+ },
+ {
+  "file": "i583.jpg",
+  "name": "شاحن 25 واط 2 في 1",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i584.jpg",
+  "name": "كيبل تايب سي",
+  "brand": "Data Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i585.jpg",
+  "name": "ستاند مكتبي",
+  "brand": "Phone Stand",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i586.jpg",
+  "name": "سماعة كيس",
+  "brand": "VNP",
+  "category": "سماعة"
+ },
+ {
+  "file": "i587.jpg",
+  "name": "شاحن آيفون",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i588.jpg",
+  "name": "كيبل آيفون",
+  "brand": "Apple",
+  "category": "كيبل"
+ },
+ {
+  "file": "i589.jpg",
+  "name": "كيبل تايب سي",
+  "brand": "Apple",
+  "category": "كيبل"
+ },
+ {
+  "file": "i590.jpg",
+  "name": "شاحن سيارة PD 38 واط",
+  "brand": "Car Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i591.jpg",
+  "name": "كيبل ريتشي تايب سي 100 واط",
+  "brand": "Recci",
+  "category": "كيبل"
+ },
+ {
+  "file": "i592.jpg",
+  "name": "شاحن آيفون 14 برو ماكس 20 واط",
+  "brand": "Apple",
+  "category": "شاحن"
+ },
+ {
+  "file": "i593.jpg",
+  "name": "كيبل گيرلاكس 60 واط PD",
+  "brand": "Gerlax",
+  "category": "كيبل"
+ },
+ {
+  "file": "i594.jpg",
+  "name": "شاحن سيارة FM گيرلاكس",
+  "brand": "Gerlax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i595.jpg",
+  "name": "شاحن سيارة كاكوسيگا 4 منافذ",
+  "brand": "Kakusiga",
+  "category": "شاحن"
+ },
+ {
+  "file": "i596.jpg",
+  "name": "باور بانك زيوار 22.5 واط",
+  "brand": "SIWAR",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i597.jpg",
+  "name": "شاحن هوكو 20 واط GaN",
+  "brand": "Hoco",
+  "category": "شاحن"
+ },
+ {
+  "file": "i598.jpg",
+  "name": "باور بانك زيوار 66 واط",
+  "brand": "SIWAR",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i599.jpg",
+  "name": "باور بانك زيوار 30000 22.5 واط",
+  "brand": "SIWAR",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i600.jpg",
+  "name": "شاحن سفر دبل USB-A",
+  "brand": "Travel Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i601.jpg",
+  "name": "شاحن سامسونج 45 واط أصلي",
+  "brand": "Samsung",
+  "category": "شاحن"
+ },
+ {
+  "file": "i602.jpg",
+  "name": "سماعة رقبة ساوندكور U80i",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i603.jpg",
+  "name": "لاصق برايفسي",
+  "brand": "Privacy",
+  "category": "حماية"
+ },
+ {
+  "file": "i604.jpg",
+  "name": "زجاج حماية يونيپرو",
+  "brand": "Unipro",
+  "category": "حماية"
+ },
+ {
+  "file": "i605.jpg",
+  "name": "ترايپود موبايل",
+  "brand": "Tripod",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i606.jpg",
+  "name": "ساعة رجالية أورينت ستار",
+  "brand": "Orient Star",
+  "category": "ساعة"
+ },
+ {
+  "file": "i607.jpg",
+  "name": "سماعة ساوندكور R90i",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i608.jpg",
+  "name": "باور بانك 40000",
+  "brand": "Power Bank",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i609.jpg",
+  "name": "سماعة NS-13 پيور باس",
+  "brand": "NS",
+  "category": "سماعة"
+ },
+ {
+  "file": "i610.jpg",
+  "name": "ساعة رجالية",
+  "brand": "Watch",
+  "category": "ساعة"
+ },
+ {
+  "file": "i611.jpg",
+  "name": "سبيكر محمول",
+  "brand": "Portable Speaker",
+  "category": "سماعة"
+ },
+ {
+  "file": "i612.jpg",
+  "name": "سماعة بوت لاسلكية ANC",
+  "brand": "Boat",
+  "category": "سماعة"
+ },
+ {
+  "file": "i613.jpg",
+  "name": "ماوس لاسلكي",
+  "brand": "Wireless Mouse",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i614.jpg",
+  "name": "كيبل نيوستوب 6A",
+  "brand": "NewStop",
+  "category": "كيبل"
+ },
+ {
+  "file": "i615.jpg",
+  "name": "سماعة رقبة لاسلكية سوپيريور",
+  "brand": "Superior",
+  "category": "سماعة"
+ },
+ {
+  "file": "i616.jpg",
+  "name": "كيبل فاشن نيوستوب ضوئي",
+  "brand": "NewStop",
+  "category": "كيبل"
+ },
+ {
+  "file": "i617.jpg",
+  "name": "سماعة ريدنگتون لاسلكية",
+  "brand": "Redington",
+  "category": "سماعة"
+ },
+ {
+  "file": "i618.jpg",
+  "name": "سماعة لاسلكية تايب سي",
+  "brand": "Earbuds",
+  "category": "سماعة"
+ },
+ {
+  "file": "i619.jpg",
+  "name": "سماعة ستيريو سلكية ملونة",
+  "brand": "Stereo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i620.jpg",
+  "name": "حامل هاتف للسيارة",
+  "brand": "Car Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i621.jpg",
+  "name": "سماعة CXG Q86",
+  "brand": "CXG",
+  "category": "سماعة"
+ },
+ {
+  "file": "i622.jpg",
+  "name": "حامل سيارة گرافيتي",
+  "brand": "Gravity",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i623.jpg",
+  "name": "كيبل نيوستوب 65 واط",
+  "brand": "NewStop",
+  "category": "كيبل"
+ },
+ {
+  "file": "i624.jpg",
+  "name": "سماعة رقبة كين",
+  "brand": "KIN",
+  "category": "سماعة"
+ },
+ {
+  "file": "i625.jpg",
+  "name": "سماعة رقبة سامسونج 120 ساعة",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i626.jpg",
+  "name": "سماعة إيربود بشاشة ذكية",
+  "brand": "Earbuds",
+  "category": "سماعة"
+ },
+ {
+  "file": "i627.jpg",
+  "name": "جهاز تتبع S Tag",
+  "brand": "S Tag",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i628.jpg",
+  "name": "شاحن سيارة مومكس",
+  "brand": "Momax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i629.jpg",
+  "name": "توصيلة لايتننگ إلى 3.5",
+  "brand": "Apple",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i630.jpg",
+  "name": "مايك لاسلكي K8",
+  "brand": "K8",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i631.jpg",
+  "name": "ساعة ذكية 7 في 1",
+  "brand": "Smart Watch",
+  "category": "ساعة"
+ },
+ {
+  "file": "i632.jpg",
+  "name": "شاحن سيارة مكدودو 4 في 1",
+  "brand": "Mcdodo",
+  "category": "شاحن"
+ },
+ {
+  "file": "i633.jpg",
+  "name": "سماعة ريلمي بدز T110",
+  "brand": "Realme",
+  "category": "سماعة"
+ },
+ {
+  "file": "i634.jpg",
+  "name": "جهاز تتبع X Tag",
+  "brand": "X Tag",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i635.jpg",
+  "name": "سماعة أورايمو سلكية",
+  "brand": "Oraimo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i636.jpg",
+  "name": "يد ألعاب للموبايل",
+  "brand": "Mobile Game Controller",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i637.jpg",
+  "name": "سماعة رأس باس جاكس",
+  "brand": "Bass Jaxx",
+  "category": "سماعة"
+ },
+ {
+  "file": "i638.jpg",
+  "name": "سماعة سامسونج S88",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i639.jpg",
+  "name": "شاحن أنكر زولو 30 واط",
+  "brand": "Anker",
+  "category": "شاحن"
+ },
+ {
+  "file": "i640.jpg",
+  "name": "ساعة دي سپورت بويول پاپ",
+  "brand": "D-Sport",
+  "category": "ساعة"
+ },
+ {
+  "file": "i641.jpg",
+  "name": "شاحن سيارة گيرلاكس GC-14S 50 واط",
+  "brand": "Gerlax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i642.jpg",
+  "name": "شاحن سيارة گيرلاكس GC-16 38 واط",
+  "brand": "Gerlax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i643.jpg",
+  "name": "سماعة رقبة ساوندكور H33R",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i644.jpg",
+  "name": "زجاج حماية كوبرا أونر X9d",
+  "brand": "Cobra",
+  "category": "حماية"
+ },
+ {
+  "file": "i645.jpg",
+  "name": "لاصق زجاج إيرباگ",
+  "brand": "iMopai",
+  "category": "حماية"
+ },
+ {
+  "file": "i646.jpg",
+  "name": "زجاج حماية أراف تمبرد",
+  "brand": "Araf",
+  "category": "حماية"
+ },
+ {
+  "file": "i647.jpg",
+  "name": "سماعة رقبة بلوتوث",
+  "brand": "Neckband",
+  "category": "سماعة"
+ },
+ {
+  "file": "i648.jpg",
+  "name": "سماعة رقبة سوپيريور ميوزك",
+  "brand": "Superior",
+  "category": "سماعة"
+ },
+ {
+  "file": "i649.jpg",
+  "name": "سماعة رقبة سوپر باس",
+  "brand": "Super Bass",
+  "category": "سماعة"
+ },
+ {
+  "file": "i650.jpg",
+  "name": "سماعة ريلمي بدز كلاسك تايب سي",
+  "brand": "Realme",
+  "category": "سماعة"
+ },
+ {
+  "file": "i651.jpg",
+  "name": "سماعة رأس بلوتوث",
+  "brand": "Headphones",
+  "category": "سماعة"
+ },
+ {
+  "file": "i652.jpg",
+  "name": "شاحن مومكس ويا كيبل",
+  "brand": "Momax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i653.jpg",
+  "name": "كيبل سيكيناي 27 واط",
+  "brand": "Sikenai",
+  "category": "كيبل"
+ },
+ {
+  "file": "i654.jpg",
+  "name": "شاحن بلاك 18 واط دبل",
+  "brand": "Black",
+  "category": "شاحن"
+ },
+ {
+  "file": "i655.jpg",
+  "name": "شاحن فيليبس GaN",
+  "brand": "Philips",
+  "category": "شاحن"
+ },
+ {
+  "file": "i656.jpg",
+  "name": "شاحن مومكس ون پلگ 20 واط",
+  "brand": "Momax",
+  "category": "شاحن"
+ },
+ {
+  "file": "i657.jpg",
+  "name": "شاحن ماستر 30 واط GaN",
+  "brand": "Master",
+  "category": "شاحن"
+ },
+ {
+  "file": "i658.jpg",
+  "name": "شاحن أنكر زولو",
+  "brand": "Anker",
+  "category": "شاحن"
+ },
+ {
+  "file": "i659.jpg",
+  "name": "كيبل ووتوو CB-13",
+  "brand": "Votwo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i660.jpg",
+  "name": "سماعة XVU سلكية",
+  "brand": "XVU",
+  "category": "سماعة"
+ },
+ {
+  "file": "i661.jpg",
+  "name": "شاحن 30 واط PD",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i662.jpg",
+  "name": "سماعة زيرو زد ENC",
+  "brand": "Zero-Z",
+  "category": "سماعة"
+ },
+ {
+  "file": "i663.jpg",
+  "name": "سماعة بلوتوث كليپ",
+  "brand": "Wireless Headset",
+  "category": "سماعة"
+ },
+ {
+  "file": "i664.jpg",
+  "name": "كيبل أنكر لايتننگ",
+  "brand": "Anker",
+  "category": "كيبل"
+ },
+ {
+  "file": "i665.jpg",
+  "name": "بطاريات فيليبس AAA",
+  "brand": "Philips",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i666.jpg",
+  "name": "كيبل هوكو",
+  "brand": "Hoco",
+  "category": "كيبل"
+ },
+ {
+  "file": "i667.jpg",
+  "name": "كيبل بلاك 60 واط تايب سي",
+  "brand": "Black",
+  "category": "كيبل"
+ },
+ {
+  "file": "i668.jpg",
+  "name": "كيبل ووتوو لايتننگ 2.4A",
+  "brand": "Votwo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i669.jpg",
+  "name": "كيبل ووتوو تايب سي 2.4A",
+  "brand": "Votwo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i670.jpg",
+  "name": "شاحن سيارة زيرو زد",
+  "brand": "Zero-Z",
+  "category": "شاحن"
+ },
+ {
+  "file": "i671.jpg",
+  "name": "شاحن متعدد 170 واط",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i672.jpg",
+  "name": "شاحن سيارة فين دنس 38 واط",
+  "brand": "Ven-Dens",
+  "category": "شاحن"
+ },
+ {
+  "file": "i673.jpg",
+  "name": "باور بانك بلاك 10000",
+  "brand": "Black",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i674.jpg",
+  "name": "باور بانك أنكر بشاشة",
+  "brand": "Anker",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i675.jpg",
+  "name": "باور بانك زيرو زد 20000",
+  "brand": "Zero-Z",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i676.jpg",
+  "name": "باور بانك تورينو",
+  "brand": "Torino",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i677.jpg",
+  "name": "باور بانك سان مارينو",
+  "brand": "San Marino",
+  "category": "باور بانك"
+ },
+ {
+  "file": "i678.jpg",
+  "name": "حماية عدسات الكاميرا",
+  "brand": "Camera Lens",
+  "category": "حماية"
+ },
+ {
+  "file": "i679.jpg",
+  "name": "حماية عدسات",
+  "brand": "Camera Lens",
+  "category": "حماية"
+ },
+ {
+  "file": "i680.jpg",
+  "name": "حماية عدسات كاميرا لنز",
+  "brand": "Camera Lens",
+  "category": "حماية"
+ },
+ {
+  "file": "i681.jpg",
+  "name": "شاحن 45 واط PD",
+  "brand": "Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i682.jpg",
+  "name": "كيبل ماستر 100 واط مضفر",
+  "brand": "Master",
+  "category": "كيبل"
+ },
+ {
+  "file": "i683.jpg",
+  "name": "كيبل أورايمو 60 واط",
+  "brand": "Oraimo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i684.jpg",
+  "name": "كيبل زيرو زد 15 واط",
+  "brand": "Zero-Z",
+  "category": "كيبل"
+ },
+ {
+  "file": "i685.jpg",
+  "name": "كيبل زيرو زد تايب سي إلى تايب سي",
+  "brand": "Zero-Z",
+  "category": "كيبل"
+ },
+ {
+  "file": "i686.jpg",
+  "name": "حامل سيارة K850",
+  "brand": "Car Bracket",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i687.jpg",
+  "name": "حامل سيارة K801",
+  "brand": "Car Bracket",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i688.jpg",
+  "name": "حماية عدسات ريلمي 14 پرو+",
+  "brand": "Camera Lens",
+  "category": "حماية"
+ },
+ {
+  "file": "i689.jpg",
+  "name": "زجاج برايفسي آيفون 13 پرو ماكس",
+  "brand": "Privacy Glass",
+  "category": "حماية"
+ },
+ {
+  "file": "i690.jpg",
+  "name": "كيبل أورنج أنتي فاير سيليكون",
+  "brand": "Orange",
+  "category": "كيبل"
+ },
+ {
+  "file": "i691.jpg",
+  "name": "محول فين دنس",
+  "brand": "Ven-Dens",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i692.jpg",
+  "name": "تابلت أطفال 10.1",
+  "brand": "Kids Tablet",
+  "category": "تابلت"
+ },
+ {
+  "file": "i693.jpg",
+  "name": "كيبل جوي روم 100 واط",
+  "brand": "Joyroom",
+  "category": "كيبل"
+ },
+ {
+  "file": "i694.jpg",
+  "name": "كيبل جوي روم 25 واط لايتننگ",
+  "brand": "Joyroom",
+  "category": "كيبل"
+ },
+ {
+  "file": "i695.jpg",
+  "name": "كيبل جوي روم 30 واط",
+  "brand": "Joyroom",
+  "category": "كيبل"
+ },
+ {
+  "file": "i696.jpg",
+  "name": "كيبل جوي روم 65 واط",
+  "brand": "Joyroom",
+  "category": "كيبل"
+ },
+ {
+  "file": "i697.jpg",
+  "name": "كفر إيربودز ساوندكور",
+  "brand": "Case",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i698.jpg",
+  "name": "حماية عدسات لنز فيلم",
+  "brand": "Lens Film",
+  "category": "حماية"
+ },
+ {
+  "file": "i699.jpg",
+  "name": "كفر سامسونج",
+  "brand": "Samsung",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i700.jpg",
+  "name": "حماية عدسات كوزوم تيتانيوم",
+  "brand": "Kuzoom",
+  "category": "حماية"
+ },
+ {
+  "file": "i701.jpg",
+  "name": "حماية عدسات كوزوم آيفون 18",
+  "brand": "Kuzoom",
+  "category": "حماية"
+ },
+ {
+  "file": "i702.jpg",
+  "name": "كيبل موكسوم HDMI 3 متر",
+  "brand": "Moxom",
+  "category": "كيبل"
+ },
+ {
+  "file": "i703.jpg",
+  "name": "حامل مغناطيسي موكسوم",
+  "brand": "Moxom",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i704.jpg",
+  "name": "كيبل أورنج 6A",
+  "brand": "Orange",
+  "category": "كيبل"
+ },
+ {
+  "file": "i705.jpg",
+  "name": "زجاج برايفسي",
+  "brand": "Privacy",
+  "category": "حماية"
+ },
+ {
+  "file": "i706.jpg",
+  "name": "حماية عدسات آيفون 18 پرو ماكس",
+  "brand": "Camera Lens",
+  "category": "حماية"
+ },
+ {
+  "file": "i707.jpg",
+  "name": "مصدر طاقة ميني UPS",
+  "brand": "Orange",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i708.jpg",
+  "name": "فلاش توشيبا 64 گيگا",
+  "brand": "Toshiba",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i709.jpg",
+  "name": "كيبل پيپيپولو 120 واط مايكرو",
+  "brand": "Pipipolo",
+  "category": "كيبل"
+ },
+ {
+  "file": "i710.jpg",
+  "name": "كيبل أنكر مضفر",
+  "brand": "Anker",
+  "category": "كيبل"
+ },
+ {
+  "file": "i711.jpg",
+  "name": "سماعة رأس أنكر A9",
+  "brand": "Anker",
+  "category": "سماعة"
+ },
+ {
+  "file": "i712.jpg",
+  "name": "سماعة دفانك",
+  "brand": "Deffanic",
+  "category": "سماعة"
+ },
+ {
+  "file": "i713.jpg",
+  "name": "سماعة رقبة JBL 120 ساعة",
+  "brand": "JBL",
+  "category": "سماعة"
+ },
+ {
+  "file": "i714.jpg",
+  "name": "سماعة ألترا پودز ماكس",
+  "brand": "Ultrapods",
+  "category": "سماعة"
+ },
+ {
+  "file": "i715.jpg",
+  "name": "سماعة آيفون موكسوم",
+  "brand": "Moxom",
+  "category": "سماعة"
+ },
+ {
+  "file": "i716.jpg",
+  "name": "سماعة طوق واير نيوستوب",
+  "brand": "NewStop",
+  "category": "سماعة"
+ },
+ {
+  "file": "i717.jpg",
+  "name": "سماعة NS-13 إيربود",
+  "brand": "NS",
+  "category": "سماعة"
+ },
+ {
+  "file": "i718.jpg",
+  "name": "شاحن نيوستوب CH-9 35 واط",
+  "brand": "NewStop",
+  "category": "شاحن"
+ },
+ {
+  "file": "i719.jpg",
+  "name": "شاحن سيارة",
+  "brand": "Car Charger",
+  "category": "شاحن"
+ },
+ {
+  "file": "i720.jpg",
+  "name": "شاحن سيارة 4 في 1 سوپر فاست",
+  "brand": "Super Fast Charge",
+  "category": "شاحن"
+ },
+ {
+  "file": "i721.jpg",
+  "name": "سماعة رأس أورايمو پيور باس",
+  "brand": "Oraimo",
+  "category": "سماعة"
+ },
+ {
+  "file": "i722.jpg",
+  "name": "كيبل گول 65 واط",
+  "brand": "GOL",
+  "category": "كيبل"
+ },
+ {
+  "file": "i723.jpg",
+  "name": "سماعة رقبة AI فويس جينج",
+  "brand": "AI Voice",
+  "category": "سماعة"
+ },
+ {
+  "file": "i724.jpg",
+  "name": "حامل موبايل متعدد الوظائف",
+  "brand": "Mobile Phone Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i725.jpg",
+  "name": "كيبل تايب سي إلى لايتننگ",
+  "brand": "Cable",
+  "category": "كيبل"
+ },
+ {
+  "file": "i726.jpg",
+  "name": "سماعة ألعاب X26",
+  "brand": "X26",
+  "category": "سماعة"
+ },
+ {
+  "file": "i727.jpg",
+  "name": "موبايل نوكيا 300",
+  "brand": "Nokia",
+  "category": "موبايل"
+ },
+ {
+  "file": "i728.jpg",
+  "name": "كفر برليا آيفون 16 پرو ماكس",
+  "brand": "Berlia",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i729.jpg",
+  "name": "سماعة سامسونج AKG أوكس",
+  "brand": "Samsung",
+  "category": "سماعة"
+ },
+ {
+  "file": "i730.jpg",
+  "name": "سماعة تايب سي 16 پرو ماكس",
+  "brand": "Earphones",
+  "category": "سماعة"
+ },
+ {
+  "file": "i731.jpg",
+  "name": "سماعة أوكس أصلي",
+  "brand": "Earphones",
+  "category": "سماعة"
+ },
+ {
+  "file": "i732.jpg",
+  "name": "توصيلة آيفون",
+  "brand": "Adapter",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i733.jpg",
+  "name": "ستاند سيارة سيليكون",
+  "brand": "Mobile Phone Holder",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i734.jpg",
+  "name": "سماعة دفانك 25 ساعة",
+  "brand": "Deffanic",
+  "category": "سماعة"
+ },
+ {
+  "file": "i735.jpg",
+  "name": "كيبل زيرو زد تايب سي إلى لايتننگ",
+  "brand": "Zero-Z",
+  "category": "كيبل"
+ },
+ {
+  "file": "i736.jpg",
+  "name": "سماعة فين دنس إيربود الجيل الرابع",
+  "brand": "Ven-Dens",
+  "category": "سماعة"
+ },
+ {
+  "file": "i737.jpg",
+  "name": "حماية عدسات لنز آرمر",
+  "brand": "Lens Armor",
+  "category": "حماية"
+ },
+ {
+  "file": "i738.jpg",
+  "name": "زجاج حماية 360 فولدنگ",
+  "brand": "Cobra",
+  "category": "حماية"
+ },
+ {
+  "file": "i739.jpg",
+  "name": "سماعة ساوندكور R60i NC",
+  "brand": "Soundcore",
+  "category": "سماعة"
+ },
+ {
+  "file": "i740.jpg",
+  "name": "حامل موبايل للرقبة أورنج",
+  "brand": "Orange",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i741.jpg",
+  "name": "حامل مغناطيسي Q15",
+  "brand": "Q15",
+  "category": "ملحقات"
+ },
+ {
+  "file": "i742.jpg",
+  "name": "سماعة فين دنس سلكية 120 سم",
+  "brand": "Ven-Dens",
+  "category": "سماعة"
+ },
+ {
+  "file": "i743.jpg",
+  "name": "حامل مغناطيسي",
+  "brand": "Magnetic Holder",
+  "category": "ملحقات"
+ }
+]
