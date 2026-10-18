@@ -16,6 +16,7 @@ async saveCustomer(a){if(!uid||!a)return;try{await setDoc(doc(db,"customers",uid
 async ownerLogin(){await signInWithPopup(auth,new GoogleAuthProvider())},
 async listAdmins(){const s=await getDocs(collection(db,"admins"));return s.docs.map(d=>({e:d.id,...d.data()}))},addAdmin:(e,n)=>setDoc(doc(db,"admins",e),{n:n||"",at:serverTimestamp()}),removeAdmin:e=>deleteDoc(doc(db,"admins",e)),setCost:(id,c)=>setDoc(doc(db,"stock",id),{cost:c},{merge:true}),
 logout:()=>signOut(auth),
+onNewOrders(cb){if(window.__noUnsub)return;let first=true;window.__noUnsub=onSnapshot(query(collection(db,"orders"),orderBy("createdAt","desc"),limit(5)),s=>{if(first){first=false;return}s.docChanges().forEach(c=>{if(c.type=="added")cb({id:c.doc.id,...c.doc.data()})})},()=>{window.__noUnsub=null})},
 async listOrders(){const s=await getDocs(query(collection(db,"orders"),orderBy("createdAt","desc"),limit(500)));return s.docs.map(d=>({id:d.id,...d.data()}))},
 async listDevices(){const s=await getDocs(collection(db,"devices"));return s.docs.map(d=>({id:d.id,img:d.data().img}))},saveDevice:(k,img)=>setDoc(doc(db,"devices",k),{img}),deleteDevice:k=>deleteDoc(doc(db,"devices",k)),async listCustomers(){const s=await getDocs(collection(db,"customers"));return s.docs.map(d=>d.data())},
 setOrderStatus:(id,k)=>updateDoc(doc(db,"orders",id),{status:k}),
@@ -246,6 +247,10 @@ for(let i=0;i<9;i++)ping(Math.random()*.05,3000+Math.random()*4500,.15+Math.rand
 for(let i=0;i<7;i++){const at=.12+i*.05+Math.random()*.04;ping(at,4000+Math.random()*4000,.08+Math.random()*.1,.05);nz(at,.04,.15,5000)}}catch(e){}}
 function wood(){try{const A=ACX||(ACX=new(window.AudioContext||window.webkitAudioContext)());if(A.state=="suspended")A.resume();const t=A.currentTime+.02,m=A.createGain();m.gain.value=.5;m.connect(A.destination);const d=A.createDelay(),f=A.createGain(),w=A.createGain();d.delayTime.value=.06;f.gain.value=.15;w.gain.value=.1;m.connect(d);d.connect(f);f.connect(d);d.connect(w);w.connect(A.destination);
 [[523.25,.25,.3],[2093,.06,.06]].forEach(([fr,du,v])=>{const o=A.createOscillator(),g=A.createGain();o.frequency.value=fr;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.002);g.gain.exponentialRampToValueAtTime(.0005,t+du);o.connect(g);g.connect(m);o.start(t);o.stop(t+du+.05)})}catch(e){}}
+window.__ann=o=>announce(o);function announce(o){try{const nm=(o.name||"زبون").trim(),pl=(o.address||"").trim(),pt=o.delivery=="parts";
+const txt=`هنالك ${pt?"طلبية قطع غيار":"طلبية"} من ${nm}${pl?" إلى "+pl:""}`;toast("🔔 "+txt);try{navigator.vibrate&&navigator.vibrate([200,100,200])}catch(e){}
+const say=()=>{if(!window.speechSynthesis)return;speechSynthesis.cancel();const v=speechSynthesis.getVoices().find(x=>/^ar/i.test(x.lang));for(let i=0;i<2;i++){const u=new SpeechSynthesisUtterance(txt);u.lang="ar-SA";if(v)u.voice=v;u.rate=.9;speechSynthesis.speak(u)}};
+chime(false);setTimeout(say,1300)}catch(e){}}
 function chime(big){try{const A=ACX||(ACX=new(window.AudioContext||window.webkitAudioContext)());if(A.state=="suspended")A.resume();const t=A.currentTime+.03,m=A.createGain();m.gain.value=big?.6:.5;m.connect(A.destination);
  const d=A.createDelay(),f=A.createGain(),w=A.createGain();d.delayTime.value=.15;f.gain.value=.35;w.gain.value=.3;m.connect(d);d.connect(f);f.connect(d);d.connect(w);w.connect(A.destination);
  const bell=(fr,at,du,v)=>{const c=A.createOscillator(),mo=A.createOscillator(),mg=A.createGain(),g=A.createGain();c.frequency.value=fr;mo.frequency.value=fr*3.5;mg.gain.setValueAtTime(fr*1.4,t+at);mg.gain.exponentialRampToValueAtTime(fr*.04,t+at+du*.6);mo.connect(mg);mg.connect(c.frequency);g.gain.setValueAtTime(0,t+at);g.gain.linearRampToValueAtTime(v,t+at+.005);g.gain.exponentialRampToValueAtTime(.0005,t+at+du);c.connect(g);g.connect(m);c.start(t+at);mo.start(t+at);c.stop(t+at+du+.05);mo.stop(t+at+du+.05)};
@@ -496,7 +501,7 @@ document.addEventListener("keydown",e=>{if(e.key=="Escape"){close();closeDrawer(
 shell();render();techView();
 API.onProducts(L=>{const first=!loaded;PR=mergeACC(L).map(p=>p.img&&/^(p\d+|products\/x\d+)\.jpg$/.test(p.img)?{...p,img:p.img+"?v=8"}:p);loaded=true;if(first)setTimeout(checkHash,0);for(const id in cart)if(!okC(G(id)))delete cart[id];sv();if(tab=="home")grid();else if(tab=="cart")cartView();badge();if(OWN&&atab=="p"&&$("#ad")&&$("#sh").classList.contains("on"))prodTab()});
 API.onSettings(x=>{S={tg:x.tg||"",tc:x.tc||"",of:{on:1,a:20,b:30,...(x.of||{})},np:x.np||"",nk:x.nk||"",cm:+x.cm||0,about:x.about||"",ph:(x.ph&&x.ph.length)?x.ph:S.ph,wa:x.wa||S.wa,dr:(x.dr&&x.dr.length>1)?x.dr:S.dr,fee:{...S.fee,...(x.fee||{})}};if(tab=="cart")cartView();offerBar()});
-API.onUser(o=>{OWN=!!o;ROLE=o||"";if(ROLE=="a"&&!"pk".includes(atab))atab="p";if(OWN)API.onStock(m=>{STK=m;if(atab=="k"&&$("#ad")&&$("#sh").classList.contains("on"))stockTab()});$("#adm").hidden=!OWN;if(OWN)hideGate();else gate();if(tab=="me")meView();if(tab=="home")grid()});
+API.onUser(o=>{OWN=!!o;ROLE=o||"";if(ROLE=="a"&&!"pk".includes(atab))atab="p";if(OWN)API.onNewOrders(announce);if(OWN)API.onStock(m=>{STK=m;if(atab=="k"&&$("#ad")&&$("#sh").classList.contains("on"))stockTab()});$("#adm").hidden=!OWN;if(OWN)hideGate();else gate();if(tab=="me")meView();if(tab=="home")grid()});
 API.onMyOrders(L=>{MY=L;if(tab=="orders")ordersView()});
 let dp=null;const standalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
 if(!standalone())$("#inst").hidden=false;
