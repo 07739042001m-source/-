@@ -585,5 +585,14 @@ async function install(){if(dp){dp.prompt();await dp.userChoice;dp=null;return}
  const st=inapp?["انسخ رابط التطبيق","افتح متصفح "+(ios?"Safari":"Chrome")+" نفسه والصق الرابط","بعدها اضغط زر التثبيت مرة ثانية"]:ios?["اضغط زر المشاركة بأسفل Safari","اختر «إضافة إلى الشاشة الرئيسية»","اضغط «إضافة»"]:["اضغط النقاط ⋮ بأعلى Chrome","اختر «تثبيت التطبيق» أو «إضافة إلى الشاشة الرئيسية»","اضغط «تثبيت»"];
  open(`<div class="hd"><h2>ثبّت التطبيق</h2><button class="x" data-close aria-label="إغلاق">${I("x")}</button></div>${inapp?'<p class="hint">أنت فاتح التطبيق من داخل تطبيق ثاني، والتثبيت يشتغل بس من المتصفح.</p>':""}<ol class="steps">${st.map(x=>`<li>${x}</li>`).join("")}</ol><button class="btn mt" data-close>تمام</button>`)}
 if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+(function(){let lastBack=0;const guard=()=>{try{history.pushState({g:1},"",location.href)}catch(e){}};
+if(!(history.state&&history.state.g))guard();
+window.addEventListener("popstate",()=>{const dw=document.getElementById("dw"),sh=document.getElementById("sh");
+ if(dw&&dw.classList.contains("on")){closeDrawer();guard();return}
+ if(sh&&sh.classList.contains("on")){close();guard();return}
+ if(tab!="home"){setTab("home");guard();return}
+ if(sec){sec="";cat="all";q="";brd="";home();window.scrollTo(0,0);guard();return}
+ const now=Date.now();if(now-lastBack<2000){history.back();return}
+ lastBack=now;toast("اضغط رجوع مرة ثانية للخروج");guard()})})();
 
 </script></body></html>
