@@ -393,10 +393,10 @@ function orderText(no){const D=disc(),t=D.t-D.d,fee=S.fee[dm],fz=n=>n?fmt(n):"م
 let CDT=null;
 function send(to,keep){
  if(!cu.n.trim()||cu.p.replace(/\D/g,"").length<10||(dm!="p"&&!cu.a.trim()&&!cu.l)){er("اكتب الاسم ورقم هاتف صحيح والعنوان حتى نكمل الطلب.");return}
- if(CDT)return;er("");let n=15;const o=document.createElement("div");o.className="cdw";o.setAttribute("role","alertdialog");o.setAttribute("aria-live","assertive");
- o.innerHTML=`<div class="cdb"><svg viewBox="0 0 120 120" class="cdr"><circle cx="60" cy="60" r="52" class="cdt"/><circle cx="60" cy="60" r="52" class="cdp" id="cdp"/></svg><b id="cdn">15</b><h3>جاري تثبيت طلبك</h3><p>تگدر تلغي الطلب خلال <bdi id="cds">15</bdi> ثانية</p><button class="btn cdx" id="cdx">إلغاء الطلب</button></div>`;
+ if(CDT)return;er("");let n=10;const o=document.createElement("div");o.className="cdw";o.setAttribute("role","alertdialog");o.setAttribute("aria-live","assertive");
+ o.innerHTML=`<div class="cdb"><svg viewBox="0 0 120 120" class="cdr"><circle cx="60" cy="60" r="52" class="cdt"/><circle cx="60" cy="60" r="52" class="cdp" id="cdp"/></svg><b id="cdn">10</b><h3>جاري تثبيت طلبك</h3><p>تگدر تلغي الطلب خلال <bdi id="cds">10</bdi> ثانية</p><button class="btn cdx" id="cdx">إلغاء الطلب</button></div>`;
  document.body.appendChild(o);const L=2*Math.PI*52,pc=o.querySelector("#cdp");pc.style.strokeDasharray=L;
- const tick=()=>{o.querySelector("#cdn").textContent=n;o.querySelector("#cds").textContent=n;pc.style.strokeDashoffset=L*(1-n/15)};tick();
+ const tick=()=>{o.querySelector("#cdn").textContent=n;o.querySelector("#cds").textContent=n;pc.style.strokeDashoffset=L*(1-n/10)};tick();
  const done=()=>{clearInterval(CDT);CDT=null;o.remove()};
  o.querySelector("#cdx").onclick=()=>{done();try{navigator.vibrate&&navigator.vibrate(60)}catch(e){};toast("انلغى الطلب، وسلتك مثل ما هي")};
  CDT=setInterval(()=>{n--;if(n<=0){done();sendNow(to,keep)}else tick()},1000)}
@@ -594,7 +594,7 @@ document.addEventListener("change",e=>{if(e.target.id!="ef"||!e.target.files[0])
 document.addEventListener("keydown",e=>{if(e.key=="Escape"){close();closeDrawer()}});
 /* boot */
 shell();render();techView();
-API.onProducts(L=>{const first=!loaded;PR=mergeACC(L).map(p=>p.img&&/^(p\d+|products\/x\d+)\.jpg$/.test(p.img)?{...p,img:p.img+"?v=32"}:p);loaded=true;if(first){setTimeout(checkHash,0);setTimeout(payBack,600)}for(const id in cart)if(!okC(G(id)))delete cart[id];sv();if(tab=="home")grid();else if(tab=="cart")cartView();badge();if(OWN&&atab=="p"&&$("#ad")&&$("#sh").classList.contains("on"))prodTab()});
+API.onProducts(L=>{const first=!loaded;PR=mergeACC(L).map(p=>p.img&&/^(p\d+|products\/x\d+)\.jpg$/.test(p.img)?{...p,img:p.img+"?v=33"}:p);loaded=true;if(first){setTimeout(checkHash,0);setTimeout(payBack,600)}for(const id in cart)if(!okC(G(id)))delete cart[id];sv();if(tab=="home")grid();else if(tab=="cart")cartView();badge();if(OWN&&atab=="p"&&$("#ad")&&$("#sh").classList.contains("on"))prodTab()});
 API.onSettings(x=>{S={tg:x.tg||"",tc:x.tc||"",of:{on:1,a:20,b:30,...(x.of||{})},np:x.np||"",nk:x.nk||"",cm:+x.cm||0,about:x.about||"",ph:(x.ph&&x.ph.length)?x.ph:S.ph,wa:x.wa||S.wa,dr:(x.dr&&x.dr.length>1)?x.dr:S.dr,fee:{...S.fee,...(x.fee||{})}};if(tab=="cart")cartView();offerBar()});
 API.onUser(o=>{OWN=o=="o"||o=="a";ROLE=o||"";DRV=o=="d";if(DRV){driverStart();setTab("orders")}if(ROLE=="a"&&!"pkmo".includes(atab))atab="p";if(OWN){API.onNewOrders(announce);staffChats()}else myChat();if(OWN)API.onStock(m=>{STK=m;if(atab=="k"&&$("#ad")&&$("#sh").classList.contains("on"))stockTab()});$("#adm").hidden=!OWN;if(OWN||DRV)hideGate();else gate();if(tab=="me")meView();if(tab=="home")grid()});
 let MYS=null;API.onMyOrders(L=>{if(MYS)L.forEach(o=>{const p=MYS[o.id];if(p&&p!=o.status){const m={accepted:"طلبك قيد التجهيز 📦",onway:"طلبك بالطريق إليك 🛵",delivered:"تم توصيل طلبك ✓ شكراً إلك",cancelled:"تم إلغاء طلبك"}[o.status];if(m){chime(o.status=="delivered");try{navigator.vibrate&&navigator.vibrate([120,60,120])}catch(e){}toast(m)}}});MYS={};L.forEach(o=>MYS[o.id]=o.status);const sig=A=>JSON.stringify(A.map(o=>[o.id,o.status]));const same=sig(L)==sig(MY);MY=L;if(tab=="orders"){if(same&&document.querySelector("[data-map]"))mapsUpd();else ordersView()}});
