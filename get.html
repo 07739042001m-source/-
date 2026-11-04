@@ -54,24 +54,10 @@ button:focus-visible,a:focus-visible{outline:3px solid #ffbf00;outline-offset:2p
  <p>اكسسوارات أصلية، صيانة وقطع غيار لكل الأجهزة، وتوصيل لباب البيت داخل الموصل.</p>
  <button class="btn w" id="inst"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>حمّل التطبيق مجاناً</button>
  <div class="ok" id="ok">تم التثبيت ✓ تلگى أيقونة الياقوت على شاشة موبايلك</div>
- <a class="btn o" href="index.html">افتح المتجر بدون تحميل</a>
+ <p id="ih" style="position:relative;z-index:1;margin:12px 0 0;font-size:14px;opacity:.9" hidden>بالآيفون: من Safari دوس زر المشاركة ⬆︎ ثم «إضافة إلى الشاشة الرئيسية»</p>
 </section>
 
-<section class="card" id="how">
- <h2>طريقة التحميل</h2>
- <div class="tabs"><button id="tA" class="on">أندرويد</button><button id="tI">آيفون</button></div>
- <ol id="sA">
-  <li>افتح هاي الصفحة من متصفح <b>Chrome</b>.</li>
-  <li>دوس زر <b>«حمّل التطبيق مجاناً»</b> اللي فوگ.</li>
-  <li>إذا ما طلع شي: دوس النقاط الثلاث <b>⋮</b> فوگ، وبعدها <b>«تثبيت التطبيق»</b> أو <b>«إضافة إلى الشاشة الرئيسية»</b>.</li>
- </ol>
- <ol id="sI" hidden>
-  <li>افتح هاي الصفحة من <b>Safari</b>.</li>
-  <li>دوس زر المشاركة <b>⬆︎</b> اللي تحت.</li>
-  <li>انزل ودوس <b>«إضافة إلى الشاشة الرئيسية»</b>، وبعدها <b>«إضافة»</b>.</li>
- </ol>
-</section>
-
+<h2 style="font-family:var(--fd);margin:4px 0 -8px;font-size:20px">مميزات التطبيق</h2>
 <section class="feat">
  <div><b>اكسسوارات</b>شواحن، كيبلات، سماعات وباور بانك من انكر، اورايمو، ابل وغيرها</div>
  <div><b>صيانة</b>قطع غيار لكل الأجهزة، اسأل عن السعر ونرد عليك</div>
@@ -79,25 +65,14 @@ button:focus-visible,a:focus-visible{outline:3px solid #ffbf00;outline-offset:2p
  <div><b>دفع سهل</b>عند الاستلام أو بالفيزا وزين كاش و FIB</div>
 </section>
 
-<section class="card">
- <h2>شارك التطبيق</h2>
- <div class="share"><a class="wa" id="wa" href="#" target="_blank" rel="noopener">واتساب</a><button id="cp">نسخ الرابط</button></div>
- <p class="lnk" id="lk"></p>
-</section>
-
 <footer>مكتب الياقوت للموبايل · حي الزهور، الموصل<br>07704209876</footer>
 </main>
 <script>
-const url=location.origin+location.pathname;document.getElementById("lk").textContent=url;
-document.getElementById("wa").href="https://wa.me/?text="+encodeURIComponent("حمّل تطبيق مكتب الياقوت للموبايل 📱\n"+url);
-document.getElementById("cp").onclick=async e=>{try{await navigator.clipboard.writeText(url);e.target.textContent="انسخ ✓"}catch(_){e.target.textContent=url}};
-const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
-function tab(i){document.getElementById("sA").hidden=i;document.getElementById("sI").hidden=!i;document.getElementById("tA").classList.toggle("on",!i);document.getElementById("tI").classList.toggle("on",i)}
-document.getElementById("tA").onclick=()=>tab(false);document.getElementById("tI").onclick=()=>tab(true);if(ios)tab(true);
+const APK="";
+const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);if(ios)document.getElementById("ih").hidden=false;
 let dp=null;window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e});
 window.addEventListener("appinstalled",()=>{document.getElementById("ok").style.display="block"});
-document.getElementById("inst").onclick=async()=>{if(dp){dp.prompt();const r=await dp.userChoice;dp=null;if(r.outcome=="accepted")document.getElementById("ok").style.display="block"}else{document.getElementById("how").scrollIntoView({behavior:"smooth"})}};
-if(matchMedia("(display-mode: standalone)").matches)location.replace("index.html");
+document.getElementById("inst").onclick=async()=>{if(APK&&!ios){location.href=APK;return}if(dp){dp.prompt();const r=await dp.userChoice;dp=null;if(r.outcome=="accepted")document.getElementById("ok").style.display="block"}else if(ios){document.getElementById("ih").hidden=false}else{location.href="index.html"}};
 if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script>
 </body>
